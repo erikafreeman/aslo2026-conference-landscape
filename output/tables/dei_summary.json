@@ -1,0 +1,180 @@
+{
+  "queried": "2026-05-11",
+  "method_notes": {
+    "country_detection": "Keyword-based on affiliation + email TLD. Coverage ~75-80%; small countries undercounted.",
+    "gender_inference": "Name-based using gender_guesser library (public-domain European-biased database). Conditional classification rate ~60-75% of presenters; East Asian, Indigenous, and many non-Western names yield 'unknown'. Inferences are AGGREGATE only — not labels of individuals. Misclassification rate likely 5-15% even among classified names.",
+    "income_group": "World Bank-style classification (2024 FY). Some borderline countries (Chile, Uruguay, Poland) categorised as high-income per current WB.",
+    "equity_session_detection": "Keyword pattern matching on session name + description. May undercount sessions where equity framing is in talk-level content rather than session header."
+  },
+  "geography": {
+    "total_presentations": 1461,
+    "country_detected": 1141,
+    "by_country": {
+      "USA": 422,
+      "Canada": 366,
+      "Germany": 74,
+      "China": 23,
+      "Sweden": 21,
+      "UK": 20,
+      "France": 20,
+      "Austria": 17,
+      "Japan": 16,
+      "Netherlands": 15,
+      "Brazil": 15,
+      "New Zealand": 13,
+      "Switzerland": 12,
+      "Spain": 12,
+      "Italy": 11,
+      "Finland": 10,
+      "Denmark": 7,
+      "Israel": 7,
+      "Argentina": 6,
+      "Mexico": 6,
+      "Norway": 5,
+      "Estonia": 5,
+      "Hungary": 5,
+      "Australia": 5,
+      "Ghana": 4,
+      "Czech Republic": 4,
+      "Chile": 4,
+      "Belgium": 3,
+      "Korea": 3,
+      "Singapore": 2,
+      "Poland": 2,
+      "Hong Kong": 2,
+      "Kenya": 1,
+      "Portugal": 1,
+      "Taiwan": 1,
+      "Turkey": 1
+    },
+    "by_income_group": {
+      "High": 1085,
+      "Unknown": 320,
+      "Upper-middle": 51,
+      "Lower-middle": 5
+    },
+    "by_continent": {
+      "North America": 788,
+      "Unknown": 320,
+      "Europe": 244,
+      "Asia": 55,
+      "Latin America": 31,
+      "Oceania": 18,
+      "Africa": 5
+    }
+  },
+  "gender_aggregate": {
+    "raw_counts": {
+      "unknown": 169,
+      "andy": 81,
+      "male": 520,
+      "female": 682,
+      "None": 9
+    },
+    "classified_count": 1283,
+    "classified_pct_of_total": 87.8,
+    "female_share_of_classified": 53.2,
+    "male_share_of_classified": 40.5,
+    "androgynous_share_of_classified": 6.3,
+    "by_continent_classified": {
+      "Africa": {
+        "n_classified": 4,
+        "female_pct": 75.0
+      },
+      "Asia": {
+        "n_classified": 39,
+        "female_pct": 15.4
+      },
+      "Europe": {
+        "n_classified": 222,
+        "female_pct": 47.7
+      },
+      "Latin America": {
+        "n_classified": 29,
+        "female_pct": 58.6
+      },
+      "North America": {
+        "n_classified": 702,
+        "female_pct": 53.4
+      },
+      "Oceania": {
+        "n_classified": 17,
+        "female_pct": 70.6
+      }
+    }
+  },
+  "organisers": {
+    "total_slots": 938,
+    "classified_count": 831,
+    "female_share_of_classified": 56.4
+  },
+  "institutional_type": {
+    "university": 1057,
+    "other": 269,
+    "research institute": 118,
+    "government": 11,
+    "unknown": 3,
+    "industry": 2,
+    "ngo / foundation": 1
+  },
+  "equity_content": {
+    "n_sessions": 14,
+    "n_presentations": 58,
+    "pct_of_program": 4.0,
+    "session_codes": [
+      "SS055A",
+      "SS079A",
+      "EP006",
+      "EP013",
+      "EP013P",
+      "SS055B",
+      "SS055C",
+      "SS055P",
+      "SS079B",
+      "WS02",
+      "WS08",
+      "WS05",
+      "WS10",
+      "PL01"
+    ]
+  },
+  "ecr_scaffolding": {
+    "n_sessions": 32,
+    "n_presentations": 88,
+    "pct_of_program": 6.0,
+    "session_codes": [
+      "SS035A",
+      "SS091A",
+      "EP006",
+      "EP010A",
+      "EP011",
+      "AV001A",
+      "EP006P",
+      "EP010B",
+      "EP010P",
+      "EP011P",
+      "SS035B",
+      "SS035P",
+      "SS091B",
+      "SS091C",
+      "SS091P",
+      "EC02",
+      "EC03",
+      "MT01",
+      "MT04",
+      "ME01",
+      "SE03",
+      "SE02",
+      "TH03",
+      "TH02",
+      "TH04",
+      "WS06",
+      "WS09",
+      "PL04",
+      "SE05",
+      "EC04",
+      "WS16",
+      "AV001B"
+    ]
+  }
+}
