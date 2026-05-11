@@ -23,7 +23,17 @@ A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Me
 - AI/ML adoption modest but pointed (2.4%). eDNA / -omics undertold (3.2%). Long-term monitoring holding at 9%.
 - FT-ICR-MS sub-analysis: 1,746 papers since 2000, 343 in 2025. Saltwater 46% of cumulative corpus; inland waters 17%; wastewater 8%.
 
-See `output/reports/conference_landscape.md` for the full read.
+### DEI sweep (full report: `output/reports/dei_sweep.md`)
+
+- **Geography:** North America 54% of presentations, Europe 17%, Asia 4%, Latin America 2%, Africa 0.3%. High-income countries 74%; lower-middle income 0.3% (5 talks from Philippines/Kenya/India/Indonesia combined).
+- **Gender (name-inferred, with explicit caveats):** of the 88% of presenter names the tool could classify, ~53% female-inferred, ~41% male-inferred. Among session organisers, 56% female-inferred — slightly above the presenter rate.
+- **Equity-content sessions:** 14 sessions (58 talks, 4% of program) explicitly programme Indigenous knowledge, equity, community-led, or citizen science. EP013 Two-Eyed Seeing sits as a peer to the Pace/Cotner/Elser legacy sessions.
+- **ECR scaffolding:** 32 sessions (88 talks, 6%) — Amplifying Voices x4, ECR alliance workshops, "How To" first-timer guides, mentorship cafes.
+- **Institutional type:** 72% university, 8% research institute, <1% government/industry/NGO.
+
+See `output/reports/dei_sweep.md` for full methodology, gender-by-continent breakdown, and limitations (name-inference biases, country-detection coverage, what this analysis is *not*).
+
+See `output/reports/conference_landscape.md` for the full landscape read.
 
 ## Reproducing the analysis
 

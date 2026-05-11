@@ -1,8 +1,8 @@
 # Reproducible build of the ASLO-SIL 2026 landscape analysis
 
-.PHONY: all install audit inventory landscape fticr clean
+.PHONY: all install audit inventory landscape fticr dei clean
 
-all: landscape fticr
+all: landscape fticr dei
 
 install:
 	pip install -r requirements.txt
@@ -20,6 +20,9 @@ fticr:
 	python scripts/fticr/01_venue_breakdown.py
 	python scripts/fticr/02_comprehensive_subdiscipline.py
 	python scripts/fticr/habitat_coarse.py
+
+dei:
+	python scripts/04_dei_analysis.py
 
 clean:
 	rm -rf output/charts/*.png output/tables/*.json output/tables/*.csv
