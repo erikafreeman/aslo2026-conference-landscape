@@ -4,7 +4,29 @@
 
 ---
 
-## v8 — public-ready version (current)
+## v10 — wired-together analysis added (current)
+
+One new section vs v9: **"How the questions are wired together,"** slotted between *Methods in the program* and *Indigenous knowledge, equity, and community-led science.* About 280 words. Reports the co-attention network (top co-occurrences, bridge topics by betweenness centrality, hubs by eigenvector centrality) and the methods × problems matrix (long-term monitoring as connective-tissue method; eDNA concentrated in microbial / biodiversity; UHR-MS concentrated in DOM; AI/ML horizontal-but-low everywhere). Network and matrix visualisations referenced as living in the repository, not embedded as additional figures in the manuscript body (keeps the figure count flexible for whichever submission category the editor selects).
+
+Closing portrait updated to reflect the new section — adds "long-term monitoring as the connective-tissue method" and "rivers, estuaries, fisheries, food webs, DOM, and equity content as the bridge topics."
+
+Data-and-methods endnote updated with a one-line note on the network construction (networkx; weight ≥10 edge threshold; betweenness and eigenvector centrality).
+
+Word count: ~2,050. Still within L&O Bulletin Article range (3,000–5,000) or the upper end of Meeting Highlights (500–1,500); if Laura selects Meeting Highlights with the 1,500-word ceiling, the wired-together section is the natural first cut (and the v9 piece is the ready-to-trim parent).
+
+---
+
+## v9 — gender-parity finding added
+
+New short section *"Gender parity, quietly reached"* between the Indigenous-knowledge/equity section and the geography section. Names the finding (about 53% female-inferred presenters, about 56% organisers among classifiable names) and the European-biased classifier caveat. Frames as "a real and unevenly acknowledged victory."
+
+Closing summary updated to add "Gender parity reached at both presenter and organiser levels" to the portrait list.
+
+Data-and-methods endnote updated with the gender-inference caveat.
+
+---
+
+## v8 — editorial polish for publication
 
 Three editorial polishes vs v7:
 - **Title set in title case**: "Reading Ourselves Through the Program: ASLO-SIL 2026 in Numbers, Verbs, and Invitations."
