@@ -1,0 +1,135 @@
+{
+  "method_note": "Corrected version of freshwater_vs_aslo.json. The world total now uses only real countries (filtered via WB region metadata), excluding aggregate groupings.",
+  "world_total_bcm": 42808.6021,
+  "total_detected_aslo_presentations": 1138,
+  "chosen_countries": [
+    {
+      "country": "Brazil",
+      "talks": 15,
+      "fw_bcm": 5661,
+      "aslo_pct": 1.3181019332161688,
+      "fw_pct": 13.223977710778835,
+      "rep_idx": 0.09967514782952083
+    },
+    {
+      "country": "Russian Federation",
+      "talks": 0,
+      "fw_bcm": 4312,
+      "aslo_pct": 0.0,
+      "fw_pct": 10.072741898759643,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "Canada",
+      "talks": 366,
+      "fw_bcm": 2850,
+      "aslo_pct": 32.161687170474515,
+      "fw_pct": 6.657540447927872,
+      "rep_idx": 4.8308662068263795
+    },
+    {
+      "country": "United States",
+      "talks": 422,
+      "fw_bcm": 2818,
+      "aslo_pct": 37.08260105448154,
+      "fw_pct": 6.582789116582717,
+      "rep_idx": 5.633265838801776
+    },
+    {
+      "country": "China",
+      "talks": 23,
+      "fw_bcm": 2812.9,
+      "aslo_pct": 2.0210896309314585,
+      "fw_pct": 6.570875623149583,
+      "rep_idx": 0.30758299910761366
+    },
+    {
+      "country": "Colombia",
+      "talks": 0,
+      "fw_bcm": 2145,
+      "aslo_pct": 0.0,
+      "fw_pct": 5.010675179229924,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "Indonesia",
+      "talks": 0,
+      "fw_bcm": 2018.7,
+      "aslo_pct": 0.0,
+      "fw_pct": 4.715641018327015,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "Peru",
+      "talks": 0,
+      "fw_bcm": 1641,
+      "aslo_pct": 0.0,
+      "fw_pct": 3.833341710543732,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "India",
+      "talks": 0,
+      "fw_bcm": 1446,
+      "aslo_pct": 0.0,
+      "fw_pct": 3.3778257851591937,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "Myanmar",
+      "talks": 0,
+      "fw_bcm": 1002.8,
+      "aslo_pct": 0.0,
+      "fw_pct": 2.342519846028796,
+      "rep_idx": 0.0
+    },
+    {
+      "country": "Japan",
+      "talks": 16,
+      "fw_bcm": 430,
+      "aslo_pct": 1.40597539543058,
+      "fw_pct": 1.004471014950521,
+      "rep_idx": 1.3997172387297176
+    },
+    {
+      "country": "France",
+      "talks": 20,
+      "fw_bcm": 200,
+      "aslo_pct": 1.757469244288225,
+      "fw_pct": 0.46719582090721906,
+      "rep_idx": 3.7617400790861155
+    },
+    {
+      "country": "Sweden",
+      "talks": 21,
+      "fw_bcm": 171,
+      "aslo_pct": 1.8453427065026362,
+      "fw_pct": 0.3994524268756723,
+      "rep_idx": 4.6196807988776865
+    },
+    {
+      "country": "United Kingdom",
+      "talks": 20,
+      "fw_bcm": 145,
+      "aslo_pct": 1.757469244288225,
+      "fw_pct": 0.33871697015773383,
+      "rep_idx": 5.188607005636022
+    },
+    {
+      "country": "Germany",
+      "talks": 74,
+      "fw_bcm": 107,
+      "aslo_pct": 6.502636203866432,
+      "fw_pct": 0.2499497641853622,
+      "rep_idx": 26.01577250956753
+    },
+    {
+      "country": "Austria",
+      "talks": 17,
+      "fw_bcm": 55,
+      "aslo_pct": 1.4938488576449913,
+      "fw_pct": 0.12847885074948523,
+      "rep_idx": 11.62719660808436
+    }
+  ]
+}
