@@ -18,7 +18,7 @@ For each country we compute:
     * <1 = freshwater share exceeds participation (room for the meeting to grow)
 
 This is descriptive, not normative. Countries with low representation indices
-have made fewer trips to Quebec; that reflects travel/visa/funding realities
+have made fewer trips to Montreal; that reflects travel/visa/funding realities
 more than scientific capacity. The ratio is one lens among many.
 """
 import json, re, time

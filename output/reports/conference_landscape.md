@@ -1,6 +1,6 @@
 # ASLO-SIL 2026 — what the conference tells us
 
-*Quebec City Convention Centre, 12–16 May 2026. 309 sessions, 1,469 indexed presentations (full audit-confirmed inventory).*
+*Palais des congrès de Montréal, Quebec, Canada, 12–16 May 2026. 308 session items, 1,455 scheduled presentations (full audit-confirmed inventory).*
 
 A landscape read on the joint ASLO–SIL programme: who shows up, what methods they use, what they study, what they're not.
 

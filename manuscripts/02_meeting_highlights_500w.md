@@ -6,7 +6,7 @@
 
 ---
 
-Every conference is two things at once: the meeting that happens in the rooms, and the portrait the program paints of the community putting it on. **1,461 abstracts. 309 sessions. 1,400 unique presenters. 741 institutions. Five days in Quebec City.** What does that picture show?
+Every conference is two things at once: the meeting that happens in the rooms, and the portrait the program paints of the community putting it on. **1,455 scheduled presentations. 308 session items. About 1,400 primary presenters. About 740 institutions. Five days in Montreal.** What does that picture show?
 
 The verbs have changed. Twenty years ago, ASLO session names were dominated by *measure*, *describe*, *characterise*. The 2026 program is dominated by *bridge*, *integrate*, *converge*, *scale*. "Multiple stressors" appears nine times as a bigram in session titles. "Bridging the gap" eight times. "Towards convergence" six. This is a field that knows it is in a synthesis moment and has named it out loud in the schedule.
 
@@ -18,7 +18,7 @@ The inclusivity scaffold is structural, not decorative. **"Two-Eyed Seeing"** pr
 
 The bets being placed are also legible. AI and machine learning surface in 35 talks (~2%) — modest but pointed, with the "Confluence of Data, Models, and AI" session naming the bet explicitly. eDNA and -omics show in 47 talks (3%) — undertold relative to neighbouring societies. **Long-term monitoring** holds at 9% — the field's methodological soul.
 
-The 2026 program is a portrait of a field that is **handing off its giants, scaffolding its cohort, programming Indigenous knowledge as knowledge, betting modestly on AI and -omics, and reaffirming long-term observation as its identity.** It is also a field where the verbs have shifted from *describe* to *integrate*. The bets being placed in Quebec this week will look obvious in five years.
+The 2026 program is a portrait of a field that is **handing off its giants, scaffolding its cohort, programming Indigenous knowledge as knowledge, betting modestly on AI and -omics, and reaffirming long-term observation as its identity.** It is also a field where the verbs have shifted from *describe* to *integrate*. The bets being placed in Montreal this week will look obvious in five years.
 
 A research community is most legible in what it puts in the program and what it leaves out. The 2026 portrait shows a field reorganising itself for a synthesis moment it has earned.
 

@@ -278,7 +278,7 @@ n_unique_inst_chunks = len(inst_first_chunk)
 
 data = {
     "queried": "2026-05-11",
-    "conference": "ASLO-SIL 2026 Joint Meeting (Quebec City, 12-16 May 2026)",
+    "conference": "ASLO-SIL 2026 Joint Meeting (Palais des congrès de Montréal, Quebec, Canada, 12-16 May 2026)",
     "community_structure": {
         "total_sessions": total_sess,
         "total_presentations_with_titles": total_pres,

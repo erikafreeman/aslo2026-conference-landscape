@@ -10,19 +10,19 @@
 
 A conference is two things at once: the meeting in the rooms, and the portrait the program paints of the community putting it on.
 
-For ASLO-SIL 2026 in Quebec City this week, the second portrait is striking. I read all 1,461 indexed abstracts across 309 sessions before flying. Here is what it tells us about the aquatic sciences community in 2026:
+For ASLO-SIL 2026 in Montreal this week, the second portrait is striking. I read all 1,455 scheduled presentations across 308 session items before flying. Here is what it tells us about the aquatic sciences community in 2026:
 
 → The verbs have changed. 2006 session names said "measure, describe, characterise." 2026 says "bridge, integrate, converge, scale." "Multiple stressors" appears 9× as a bigram. The field is naming its synthesis moment out loud.
 
 → Three legacies honored simultaneously: Mike Pace, Jim Cotner, Jim Elser. Paired structurally with early-career scaffolding — Amplifying Voices, ECR alliance workshops, a "How To" session for first-timers. The community is handing off in public.
 
-→ The SIL half is doing real work. Lakes and limnology = 28% of the program. Marine oceanography = 9%. The Quebec venue + joint meeting put freshwater back at the front.
+→ The SIL half is doing real work. Lakes and limnology = 28% of the program. Marine oceanography = 9%. The Montreal venue + joint meeting put freshwater back at the front.
 
 → The inclusivity scaffold is structural, not decorative. "Two-Eyed Seeing" programs Indigenous knowledge as a knowledge system. Amplifying Voices foregrounds researchers from the Global South.
 
 → AI/ML modest but pointed (2%). eDNA undertold (3%). Long-term monitoring holding at 9% — the field's methodological soul.
 
-The bets being placed in Quebec this week will look obvious in 2031.
+The bets being placed in Montreal this week will look obvious in 2031.
 
 (Full data, reproducible analysis, and the long-form essay: see comments.)
 

@@ -1,6 +1,6 @@
 # ASLO-SIL 2026 conference landscape analysis
 
-A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Quebec City. 1,461 indexed presentations across 309 sessions, audited against the live conference site on 11 May 2026.
+A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Palais des congrès de Montréal, Quebec, Canada. 1,455 scheduled presentations across 308 session items, audited against the live conference site on 11 May 2026.
 
 ## What's in here
 

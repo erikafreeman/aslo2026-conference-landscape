@@ -8,7 +8,7 @@
 
 ## 1/9
 
-1,461 abstracts. 309 sessions. 1,400 unique presenters. 741 institutions. 5 days in Quebec.
+1,455 presentations. 308 sessions. ~1,400 presenters. ~740 institutions. 5 days in Montreal.
 
 I read the full ASLO-SIL 2026 program before the meeting. Here is what it tells us about ourselves as a community.
 
@@ -66,7 +66,7 @@ Lakes & limnology = 28% of the program.
 Rivers + wetlands = another 11%.
 Marine oceanography = 9%.
 
-This is not the marine-heavy ASLO of 2010. The joint meeting + Quebec venue has put freshwater science back in the front of the room.
+This is not the marine-heavy ASLO of 2010. The joint meeting + Montreal venue has put freshwater science back in the front of the room.
 
 (5/9)
 
@@ -138,7 +138,7 @@ Find me at SS050B on Friday afternoon. ☕
 - 9/9: 240
 
 **Edits for character cap:**
-- 5/9: shorten to "Lakes & limnology = 28%. Rivers + wetlands = +11%. Marine = 9%. Not the marine-heavy ASLO of 2010 — the joint meeting + Quebec venue put freshwater science back in the front of the room." (~245 chars)
+- 5/9: shorten to "Lakes & limnology = 28%. Rivers + wetlands = +11%. Marine = 9%. Not the marine-heavy ASLO of 2010 — the joint meeting + Montreal venue put freshwater science back in the front of the room." (~246 chars)
 - 8/9: shorten to "The 2026 portrait: handing off its giants, scaffolding its cohort, programming Indigenous knowledge as knowledge, betting modestly on AI/-omics, reaffirming long-term observation. Verbs: describe → integrate. The bets placed this week look obvious in 2031." (~258 chars)
 
 ---
