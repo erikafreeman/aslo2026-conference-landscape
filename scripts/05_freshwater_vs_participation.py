@@ -37,7 +37,7 @@ for d in [OUT_CHARTS, OUT_TABLES, OUT_REPORTS]:
 
 # ============ 1. Pull ASLO country counts ============
 COUNTRY_PATS = {
-    "USA": [r"\bUSA\b", r"\bUnited States\b", r"\.edu\b", r"\.gov\b"],
+    "United States": [r"\bUSA\b", r"\bUnited States\b", r"\.edu\b", r"\.gov\b"],
     "Canada": [r"\bCanada\b", r"\bQu[eé]bec\b(?!.*France)", r"Ontario", r"British Columbia", r"\.ca\b"],
     "Germany": [r"\bGermany\b", r"Berlin\b(?! State)", r"M[uü]nchen", r"Bremen", r"Leibniz", r"Helmholtz", r"\.de\b"],
     "United Kingdom": [r"\bUK\b", r"\bUnited Kingdom\b", r"\bEngland\b", r"\bScotland\b", r"Cambridge\b", r"Oxford\b", r"\.uk\b"],
@@ -178,11 +178,34 @@ for country, talks in aslo_counts.items():
     records.append(rec)
 
 # Also: countries with significant freshwater BUT no ASLO talks
+# Filter out World Bank aggregate groupings (regions, income groups, etc.)
+AGGREGATE_PATTERNS = [
+    "World", "income", "IDA", "IBRD", "OECD", "Euro area", "European Union",
+    "Africa Eastern", "Africa Western", "Sub-Saharan", "Latin America",
+    "East Asia & Pacific", "Europe & Central Asia", "Middle East & North Africa",
+    "South Asia", "North America", "Central Europe", "Heavily indebted",
+    "demographic dividend", "Fragile", "Small states", "Arab World",
+    "Caribbean small states", "Pacific island", "Other small states",
+    "Least developed", "Post-demographic", "Pre-demographic", "Early-demographic",
+    "Late-demographic", "Lower middle", "Upper middle", "Middle income",
+    "Low income", "High income",
+]
+def is_aggregate(name):
+    return any(p in name for p in AGGREGATE_PATTERNS)
+
 big_fresh_no_aslo = []
-for country, fw in sorted(fresh.items(), key=lambda x: -x[1])[:40]:
-    if country not in aslo_counts and fw > 100:
-        big_fresh_no_aslo.append({"country": country, "freshwater_bcm": fw,
-                                   "freshwater_share_pct": 100*fw/world_total_fresh})
+for country, fw in sorted(fresh.items(), key=lambda x: -x[1]):
+    if country in aslo_counts: continue
+    if is_aggregate(country): continue
+    if fw < 100: continue
+    big_fresh_no_aslo.append({"country": country, "freshwater_bcm": fw,
+                               "freshwater_share_pct": 100*fw/world_total_fresh})
+    if len(big_fresh_no_aslo) >= 25:
+        break
+
+# Also recompute world total excluding aggregates (more honest)
+world_total_real = sum(v for k, v in fresh.items() if not is_aggregate(k))
+print("  World total (excluding aggregate groupings): {:.0f} bcm/yr".format(world_total_real))
 
 # Sort by absolute ASLO presence
 records_sorted = sorted([r for r in records if r["freshwater_bcm"]],

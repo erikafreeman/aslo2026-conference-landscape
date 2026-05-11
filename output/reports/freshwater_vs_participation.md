@@ -21,12 +21,13 @@ The index is **descriptive, not normative.** Low-index countries are not "doing 
 
 - Total country-detected presentations: **1138** of 1461
 - World renewable internal freshwater (sum of WB country values): **432613 bcm/yr**
-- Countries represented with both metrics: **32**
+- Countries represented with both metrics: **33**
 
 ## Top countries by ASLO presentations (with freshwater context)
 
 | Country | Talks | % of ASLO | Freshwater (bcm/yr) | % of global FW | Rep index |
 |---|---:|---:|---:|---:|---:|
+| United States | 422 | 37.1% | 2818 | 0.65% | 56.93 |
 | Canada | 366 | 32.2% | 2850 | 0.66% | 48.82 |
 | Germany | 74 | 6.5% | 107 | 0.02% | 262.91 |
 | China | 23 | 2.0% | 2813 | 0.65% | 3.11 |
@@ -46,7 +47,6 @@ The index is **descriptive, not normative.** Low-index countries are not "doing 
 | Israel | 7 | 0.6% | 1 | 0.00% | 3548.09 |
 | Argentina | 6 | 0.5% | 292 | 0.07% | 7.81 |
 | Mexico | 6 | 0.5% | 409 | 0.09% | 5.58 |
-| Norway | 5 | 0.4% | 382 | 0.09% | 4.98 |
 
 ## Countries where the meeting punches well above its freshwater stake
 
@@ -88,21 +88,21 @@ These are the freshwater systems most absent from the room. Each represents a pa
 
 | Country | Freshwater (bcm/yr) | % of global FW |
 |---|---:|---:|
-| World | 42809 | 9.90% |
-| IDA & IBRD total | 33756 | 7.80% |
-| Low & middle income | 26997 | 6.24% |
-| IBRD only | 26770 | 6.19% |
-| Middle income | 24800 | 5.73% |
-| Late-demographic dividend | 18270 | 4.22% |
-| Upper middle income | 17668 | 4.08% |
-| High income | 14885 | 3.44% |
-| Latin America & Caribbean | 13868 | 3.21% |
-| Latin America & the Caribbean (IDA & IBRD countries) | 13822 | 3.19% |
-| OECD members | 12757 | 2.95% |
-| Early-demographic dividend | 12082 | 2.79% |
-| Latin America & Caribbean (excluding high income) | 11583 | 2.68% |
-| East Asia & Pacific | 10106 | 2.34% |
-| Post-demographic dividend | 8884 | 2.05% |
+| Russian Federation | 4312 | 1.00% |
+| Colombia | 2145 | 0.50% |
+| Indonesia | 2019 | 0.47% |
+| Peru | 1641 | 0.38% |
+| India | 1446 | 0.33% |
+| Myanmar | 1003 | 0.23% |
+| Congo, Dem. Rep. | 900 | 0.21% |
+| Venezuela, RB | 805 | 0.19% |
+| Papua New Guinea | 801 | 0.19% |
+| Malaysia | 580 | 0.13% |
+| Philippines | 479 | 0.11% |
+| Ecuador | 442 | 0.10% |
+| Viet Nam | 359 | 0.08% |
+| Madagascar | 337 | 0.08% |
+| Middle East, North Africa, Afghanistan & Pakistan | 333 | 0.08% |
 
 ## The structural picture
 

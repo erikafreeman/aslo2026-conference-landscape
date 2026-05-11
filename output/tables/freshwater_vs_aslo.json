@@ -6,12 +6,12 @@
   "aslo_total_all_presentations": 1461,
   "records": [
     {
-      "country": "USA",
+      "country": "United States",
       "aslo_talks": 422,
-      "freshwater_bcm": null,
+      "freshwater_bcm": 2818,
       "aslo_share_pct": 37.08260105448154,
-      "freshwater_share_pct": null,
-      "rep_index": null
+      "freshwater_share_pct": 0.651390526489026,
+      "rep_index": 56.92837022723615
     },
     {
       "country": "Canada",
@@ -280,169 +280,9 @@
   ],
   "big_freshwater_no_aslo": [
     {
-      "country": "World",
-      "freshwater_bcm": 42808.6021,
-      "freshwater_share_pct": 9.895357650879426
-    },
-    {
-      "country": "IDA & IBRD total",
-      "freshwater_bcm": 33756.384,
-      "freshwater_share_pct": 7.8029058715847155
-    },
-    {
-      "country": "Low & middle income",
-      "freshwater_bcm": 26996.83,
-      "freshwater_share_pct": 6.240411393624815
-    },
-    {
-      "country": "IBRD only",
-      "freshwater_bcm": 26770.09,
-      "freshwater_share_pct": 6.187999651972536
-    },
-    {
-      "country": "Middle income",
-      "freshwater_bcm": 24800.148,
-      "freshwater_share_pct": 5.732640689398781
-    },
-    {
-      "country": "Late-demographic dividend",
-      "freshwater_bcm": 18269.616,
-      "freshwater_share_pct": 4.223085445348592
-    },
-    {
-      "country": "Upper middle income",
-      "freshwater_bcm": 17667.907,
-      "freshwater_share_pct": 4.08399831181304
-    },
-    {
-      "country": "High income",
-      "freshwater_bcm": 14884.7721,
-      "freshwater_share_pct": 3.4406669747651395
-    },
-    {
-      "country": "Latin America & Caribbean",
-      "freshwater_bcm": 13867.706,
-      "freshwater_share_pct": 3.205568599196247
-    },
-    {
-      "country": "Latin America & the Caribbean (IDA & IBRD countries)",
-      "freshwater_bcm": 13821.786,
-      "freshwater_share_pct": 3.194954031071202
-    },
-    {
-      "country": "OECD members",
-      "freshwater_bcm": 12756.83,
-      "freshwater_share_pct": 2.9487857381231373
-    },
-    {
-      "country": "Early-demographic dividend",
-      "freshwater_bcm": 12082.019,
-      "freshwater_share_pct": 2.7928008223777194
-    },
-    {
-      "country": "Latin America & Caribbean (excluding high income)",
-      "freshwater_bcm": 11583.11,
-      "freshwater_share_pct": 2.6774762673102557
-    },
-    {
-      "country": "East Asia & Pacific",
-      "freshwater_bcm": 10105.555,
-      "freshwater_share_pct": 2.335934276761465
-    },
-    {
-      "country": "Post-demographic dividend",
-      "freshwater_bcm": 8884.4325,
-      "freshwater_share_pct": 2.053667552778997
-    },
-    {
-      "country": "East Asia & Pacific (excluding high income)",
-      "freshwater_bcm": 8782.595,
-      "freshwater_share_pct": 2.030127459542188
-    },
-    {
-      "country": "East Asia & Pacific (IDA & IBRD countries)",
-      "freshwater_bcm": 8715.605,
-      "freshwater_share_pct": 2.014642487445134
-    },
-    {
-      "country": "Lower middle income",
-      "freshwater_bcm": 7132.241,
-      "freshwater_share_pct": 1.6486423775857404
-    },
-    {
-      "country": "Europe & Central Asia",
-      "freshwater_bcm": 7070.9216,
-      "freshwater_share_pct": 1.6344681844523155
-    },
-    {
-      "country": "IDA total",
-      "freshwater_bcm": 6986.294,
-      "freshwater_share_pct": 1.61490621961218
-    },
-    {
-      "country": "North America",
-      "freshwater_bcm": 5668,
-      "freshwater_share_pct": 1.3101779645634488
-    },
-    {
-      "country": "IDA only",
-      "freshwater_bcm": 5133.389,
-      "freshwater_share_pct": 1.1866007677015522
-    },
-    {
-      "country": "Europe & Central Asia (IDA & IBRD countries)",
-      "freshwater_bcm": 5128.196,
-      "freshwater_share_pct": 1.1854003876433346
-    },
-    {
-      "country": "Fragile and conflict affected situations",
-      "freshwater_bcm": 4978.516,
-      "freshwater_share_pct": 1.15080133370264
-    },
-    {
-      "country": "Least developed countries: UN classification",
-      "freshwater_bcm": 4508.902,
-      "freshwater_share_pct": 1.04224842003812
-    },
-    {
       "country": "Russian Federation",
       "freshwater_bcm": 4312,
       "freshwater_share_pct": 0.9967338361322498
-    },
-    {
-      "country": "Heavily indebted poor countries (HIPC)",
-      "freshwater_bcm": 4053.047,
-      "freshwater_share_pct": 0.9368759472018335
-    },
-    {
-      "country": "Sub-Saharan Africa",
-      "freshwater_bcm": 3883.761,
-      "freshwater_share_pct": 0.8977448979941609
-    },
-    {
-      "country": "Sub-Saharan Africa (IDA & IBRD countries)",
-      "freshwater_bcm": 3883.761,
-      "freshwater_share_pct": 0.8977448979941609
-    },
-    {
-      "country": "Sub-Saharan Africa (excluding high income)",
-      "freshwater_bcm": 3761.761,
-      "freshwater_share_pct": 0.8695441725748347
-    },
-    {
-      "country": "Pre-demographic dividend",
-      "freshwater_bcm": 3569.805,
-      "freshwater_share_pct": 0.8251728738158826
-    },
-    {
-      "country": "United States",
-      "freshwater_bcm": 2818,
-      "freshwater_share_pct": 0.651390526489026
-    },
-    {
-      "country": "Low income",
-      "freshwater_bcm": 2196.682,
-      "freshwater_share_pct": 0.5077707042260349
     },
     {
       "country": "Colombia",
@@ -455,14 +295,114 @@
       "freshwater_share_pct": 0.46662954429503073
     },
     {
-      "country": "Africa Eastern and Southern",
-      "freshwater_bcm": 1985.321,
-      "freshwater_share_pct": 0.4589138720510004
+      "country": "Peru",
+      "freshwater_bcm": 1641,
+      "freshwater_share_pct": 0.3793228722386414
     },
     {
-      "country": "Africa Western and Central",
-      "freshwater_bcm": 1898.44,
-      "freshwater_share_pct": 0.43883102594316054
+      "country": "India",
+      "freshwater_bcm": 1446,
+      "freshwater_share_pct": 0.3342479422651283
+    },
+    {
+      "country": "Myanmar",
+      "freshwater_bcm": 1002.8,
+      "freshwater_share_pct": 0.2318007168073794
+    },
+    {
+      "country": "Congo, Dem. Rep.",
+      "freshwater_bcm": 900,
+      "freshwater_share_pct": 0.20803813833929144
+    },
+    {
+      "country": "Venezuela, RB",
+      "freshwater_bcm": 805,
+      "freshwater_share_pct": 0.186078557070144
+    },
+    {
+      "country": "Papua New Guinea",
+      "freshwater_bcm": 801,
+      "freshwater_share_pct": 0.1851539431219694
+    },
+    {
+      "country": "Malaysia",
+      "freshwater_bcm": 580,
+      "freshwater_share_pct": 0.13406902248532115
+    },
+    {
+      "country": "Philippines",
+      "freshwater_bcm": 479,
+      "freshwater_share_pct": 0.11072252029391179
+    },
+    {
+      "country": "Ecuador",
+      "freshwater_bcm": 442.4,
+      "freshwater_share_pct": 0.10226230266811392
+    },
+    {
+      "country": "Viet Nam",
+      "freshwater_bcm": 359.42,
+      "freshwater_share_pct": 0.08308118631323126
+    },
+    {
+      "country": "Madagascar",
+      "freshwater_bcm": 337,
+      "freshwater_share_pct": 0.07789872513371246
+    },
+    {
+      "country": "Middle East, North Africa, Afghanistan & Pakistan",
+      "freshwater_bcm": 332.6285,
+      "freshwater_share_pct": 0.07688823766510111
+    },
+    {
+      "country": "Bolivia",
+      "freshwater_bcm": 303.5,
+      "freshwater_share_pct": 0.07015508331774994
+    },
+    {
+      "country": "Cameroon",
+      "freshwater_bcm": 273,
+      "freshwater_share_pct": 0.0631049019629184
+    },
+    {
+      "country": "Guyana",
+      "freshwater_bcm": 241,
+      "freshwater_share_pct": 0.055707990377521374
+    },
+    {
+      "country": "Turkiye",
+      "freshwater_bcm": 227,
+      "freshwater_share_pct": 0.05247184155891018
+    },
+    {
+      "country": "Guinea",
+      "freshwater_bcm": 226,
+      "freshwater_share_pct": 0.05224068807186652
+    },
+    {
+      "country": "Thailand",
+      "freshwater_bcm": 224.51,
+      "freshwater_share_pct": 0.05189626937617147
+    },
+    {
+      "country": "Congo, Rep.",
+      "freshwater_bcm": 222,
+      "freshwater_share_pct": 0.05131607412369189
+    },
+    {
+      "country": "Nigeria",
+      "freshwater_bcm": 221,
+      "freshwater_share_pct": 0.05108492063664823
+    },
+    {
+      "country": "Liberia",
+      "freshwater_bcm": 200,
+      "freshwater_share_pct": 0.04623069740873143
+    },
+    {
+      "country": "Nepal",
+      "freshwater_bcm": 198.2,
+      "freshwater_share_pct": 0.04581462113205285
     }
   ],
   "interpretation_note": "Rep index >1 = country's ASLO share exceeds its freshwater share (strong research investment, possibly proximity advantage). <1 = freshwater share exceeds presentation share. Index is descriptive only; reflects travel/funding/visa realities at least as much as scientific capacity."
