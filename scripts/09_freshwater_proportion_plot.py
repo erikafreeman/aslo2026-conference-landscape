@@ -193,7 +193,7 @@ for r in top_fw + top_aslo:
         seen.add(r["country"])
 chosen = [r for r in table if r["country"] in chosen_names]
 
-# Sort by freshwater share descending — biggest freshwater stocks on top
+# Sort by freshwater share descending — largest freshwater stocks at the top.
 chosen.sort(key=lambda r: -r["fw_pct"])
 
 print("\n=== CHOSEN COUNTRIES (for the chart) ===")

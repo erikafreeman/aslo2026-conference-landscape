@@ -1,0 +1,155 @@
+{
+  "source": "WB indicator ER.H2O.FWST.ZS (Level of water stress: freshwater withdrawal as a proportion of available freshwater resources)",
+  "queried": "2026-05-11",
+  "thresholds": {
+    "stressed": "stress_pct > 25",
+    "highly_stressed": "stress_pct > 70",
+    "withdrawals_exceed_renewal": "stress_pct > 100"
+  },
+  "rows": [
+    {
+      "country": "Kuwait",
+      "talks": 0,
+      "stress_pct": 3850.5,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "United Arab Emirates",
+      "talks": 0,
+      "stress_pct": 1509.933333,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Saudi Arabia",
+      "talks": 0,
+      "stress_pct": 974.1666667,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Libya",
+      "talks": 0,
+      "stress_pct": 817.1428571,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Qatar",
+      "talks": 0,
+      "stress_pct": 431.0344828,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Yemen, Rep.",
+      "talks": 0,
+      "stress_pct": 169.7619048,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Algeria",
+      "talks": 0,
+      "stress_pct": 144.8149712,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Egypt, Arab Rep.",
+      "talks": 0,
+      "stress_pct": 141.1657559,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Turkmenistan",
+      "talks": 0,
+      "stress_pct": 135.2138073,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Bahrain",
+      "talks": 0,
+      "stress_pct": 133.7068966,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "Israel",
+      "talks": 7,
+      "stress_pct": 131.998964714,
+      "aslo_pct": 0.625
+    },
+    {
+      "country": "Syrian Arab Republic",
+      "talks": 0,
+      "stress_pct": 124.3601389,
+      "aslo_pct": 0.0
+    },
+    {
+      "country": "China",
+      "talks": 23,
+      "stress_pct": 41.5185288,
+      "aslo_pct": 2.0535714285714284
+    },
+    {
+      "country": "Japan",
+      "talks": 16,
+      "stress_pct": 36.64367816,
+      "aslo_pct": 1.4285714285714286
+    },
+    {
+      "country": "Germany",
+      "talks": 74,
+      "stress_pct": 35.35165707,
+      "aslo_pct": 6.607142857142857
+    },
+    {
+      "country": "United States",
+      "talks": 422,
+      "stress_pct": 28.15525982,
+      "aslo_pct": 37.67857142857143
+    },
+    {
+      "country": "France",
+      "talks": 20,
+      "stress_pct": 21.38462716,
+      "aslo_pct": 1.7857142857142858
+    },
+    {
+      "country": "Netherlands",
+      "talks": 15,
+      "stress_pct": 16.65850698,
+      "aslo_pct": 1.3392857142857142
+    },
+    {
+      "country": "United Kingdom",
+      "talks": 20,
+      "stress_pct": 14.35464621,
+      "aslo_pct": 1.7857142857142858
+    },
+    {
+      "country": "Austria",
+      "talks": 17,
+      "stress_pct": 8.676429953,
+      "aslo_pct": 1.5178571428571428
+    },
+    {
+      "country": "New Zealand",
+      "talks": 13,
+      "stress_pct": 8.04808476,
+      "aslo_pct": 1.1607142857142858
+    },
+    {
+      "country": "Canada",
+      "talks": 366,
+      "stress_pct": 3.720700309,
+      "aslo_pct": 32.67857142857143
+    },
+    {
+      "country": "Sweden",
+      "talks": 21,
+      "stress_pct": 3.582972583,
+      "aslo_pct": 1.875
+    },
+    {
+      "country": "Brazil",
+      "talks": 15,
+      "stress_pct": 1.495816821,
+      "aslo_pct": 1.3392857142857142
+    }
+  ]
+}
