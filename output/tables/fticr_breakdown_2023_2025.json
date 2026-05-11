@@ -1,0 +1,29 @@
+{
+  "method": "OpenAlex strict title-or-abstract filter, classified by journal name",
+  "queried": "2026-05-11",
+  "breakdown": {
+    "2023": {
+      "ecology_chem": 83,
+      "preprint_data": 9,
+      "engineering": 13,
+      "unknown": 25
+    },
+    "2024": {
+      "ecology_chem": 97,
+      "unknown": 18,
+      "preprint_data": 19,
+      "engineering": 10
+    },
+    "2025": {
+      "ecology_chem": 119,
+      "engineering": 32,
+      "preprint_data": 48,
+      "unknown": 8
+    }
+  },
+  "totals_by_year": {
+    "2023": 130,
+    "2024": 144,
+    "2025": 207
+  }
+}

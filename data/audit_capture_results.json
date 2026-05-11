@@ -1,0 +1,1554 @@
+{
+  "total_sessions": 309,
+  "total_captured_presentations": 1462,
+  "total_live_application_links": 1402,
+  "net_undercapture": -60,
+  "undercapture_pct": -4.28,
+  "per_session": {
+    "2456": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2457": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2458": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2461": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2463": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2464": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2465": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2467": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2468": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2469": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2470": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2471": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2473": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2474": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2475": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2476": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2477": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2478": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2479": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2481": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2482": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2483": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2484": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2485": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2486": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2487": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2489": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2490": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2493": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2494": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2495": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2496": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2497": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2498": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2499": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2500": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2501": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2502": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2503": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2504": {
+      "captured": 6,
+      "live": 5,
+      "status": "ok"
+    },
+    "2505": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2506": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2507": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2508": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2509": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2510": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2511": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2512": {
+      "captured": 6,
+      "live": 5,
+      "status": "ok"
+    },
+    "2513": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2515": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2516": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2517": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2518": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2519": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2520": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2521": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2523": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2524": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2526": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2528": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2529": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2530": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2531": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2532": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2533": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2534": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2535": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2536": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2537": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2538": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2542": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2545": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2546": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2549": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2550": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2551": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2553": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2555": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2559": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2560": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2561": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2562": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2563": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2564": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2566": {
+      "captured": 6,
+      "live": 5,
+      "status": "ok"
+    },
+    "2567": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2569": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2570": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2571": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2572": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2573": {
+      "captured": 4,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2574": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2575": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2576": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2577": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2578": {
+      "captured": 10,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2579": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2580": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2581": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2582": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2584": {
+      "captured": 5,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2585": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2586": {
+      "captured": 9,
+      "live": 9,
+      "status": "ok"
+    },
+    "2587": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2588": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2589": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2590": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2591": {
+      "captured": 6,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2592": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2593": {
+      "captured": 6,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2594": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2595": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2596": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2597": {
+      "captured": 15,
+      "live": 15,
+      "status": "ok"
+    },
+    "2598": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2599": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2600": {
+      "captured": 8,
+      "live": 8,
+      "status": "ok"
+    },
+    "2601": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2602": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2603": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2604": {
+      "captured": 18,
+      "live": 16,
+      "status": "ok"
+    },
+    "2605": {
+      "captured": 2,
+      "live": 1,
+      "status": "ok"
+    },
+    "2606": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2607": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2608": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2609": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2610": {
+      "captured": 6,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2611": {
+      "captured": 16,
+      "live": 16,
+      "status": "ok"
+    },
+    "2612": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2613": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2614": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2615": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2616": {
+      "captured": 5,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2617": {
+      "captured": 1,
+      "live": 1,
+      "status": "ok"
+    },
+    "2618": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2619": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2620": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2621": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2622": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2623": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2624": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2625": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2626": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2627": {
+      "captured": 1,
+      "live": 1,
+      "status": "ok"
+    },
+    "2628": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2630": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2631": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2632": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2633": {
+      "captured": 9,
+      "live": 9,
+      "status": "ok"
+    },
+    "2634": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2635": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2636": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2637": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2638": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2639": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2640": {
+      "captured": 5,
+      "live": 6,
+      "status": "ok"
+    },
+    "2641": {
+      "captured": 4,
+      "live": 5,
+      "status": "ok"
+    },
+    "2642": {
+      "captured": 5,
+      "live": 6,
+      "status": "ok"
+    },
+    "2643": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2644": {
+      "captured": 5,
+      "live": 6,
+      "status": "ok"
+    },
+    "2645": {
+      "captured": 11,
+      "live": 11,
+      "status": "ok"
+    },
+    "2646": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2647": {
+      "captured": 1,
+      "live": 1,
+      "status": "ok"
+    },
+    "2648": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2649": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2650": {
+      "captured": 8,
+      "live": 8,
+      "status": "ok"
+    },
+    "2651": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2652": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2653": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2654": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2655": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2656": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2657": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2659": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2660": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2661": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2662": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2663": {
+      "captured": 5,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2664": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2665": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2666": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2667": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2668": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2669": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2670": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2671": {
+      "captured": 9,
+      "live": 9,
+      "status": "ok"
+    },
+    "2672": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2673": {
+      "captured": 11,
+      "live": 10,
+      "status": "ok"
+    },
+    "2674": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2675": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2676": {
+      "captured": 8,
+      "live": 8,
+      "status": "ok"
+    },
+    "2677": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2678": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2679": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2680": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2681": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2682": {
+      "captured": 4,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2683": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2684": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2685": {
+      "captured": 3,
+      "live": 0,
+      "status": "err_HTTPSConnectionPool(host='aslo.secure-pl"
+    },
+    "2686": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2687": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2688": {
+      "captured": 14,
+      "live": 14,
+      "status": "ok"
+    },
+    "2689": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2690": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2691": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2692": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2693": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2694": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2695": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2696": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2697": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2698": {
+      "captured": 10,
+      "live": 10,
+      "status": "ok"
+    },
+    "2699": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2700": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2701": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2702": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2703": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2704": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2705": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2706": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2707": {
+      "captured": 16,
+      "live": 16,
+      "status": "ok"
+    },
+    "2708": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2709": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2710": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2711": {
+      "captured": 5,
+      "live": 6,
+      "status": "ok"
+    },
+    "2712": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2713": {
+      "captured": 6,
+      "live": 5,
+      "status": "ok"
+    },
+    "2714": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2715": {
+      "captured": 2,
+      "live": 2,
+      "status": "ok"
+    },
+    "2716": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2717": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2718": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2719": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2720": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2722": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2723": {
+      "captured": 1,
+      "live": 1,
+      "status": "ok"
+    },
+    "2724": {
+      "captured": 4,
+      "live": 5,
+      "status": "ok"
+    },
+    "2725": {
+      "captured": 5,
+      "live": 6,
+      "status": "ok"
+    },
+    "2726": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2727": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2728": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2729": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2730": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2731": {
+      "captured": 8,
+      "live": 8,
+      "status": "ok"
+    },
+    "2732": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2733": {
+      "captured": 9,
+      "live": 9,
+      "status": "ok"
+    },
+    "2734": {
+      "captured": 5,
+      "live": 5,
+      "status": "ok"
+    },
+    "2735": {
+      "captured": 6,
+      "live": 5,
+      "status": "ok"
+    },
+    "2736": {
+      "captured": 8,
+      "live": 7,
+      "status": "ok"
+    },
+    "2737": {
+      "captured": 6,
+      "live": 6,
+      "status": "ok"
+    },
+    "2738": {
+      "captured": 4,
+      "live": 4,
+      "status": "ok"
+    },
+    "2739": {
+      "captured": 3,
+      "live": 3,
+      "status": "ok"
+    },
+    "2740": {
+      "captured": 7,
+      "live": 7,
+      "status": "ok"
+    },
+    "2741": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2742": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2743": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2744": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2745": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2746": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2748": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2749": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2750": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2751": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2752": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2754": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2755": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2757": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2758": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2759": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2760": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2761": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2762": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2763": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2764": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2765": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2766": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2767": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2768": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2769": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2770": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2771": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2772": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2773": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2775": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2777": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2778": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2779": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2781": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2782": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2783": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2784": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2785": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2786": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2787": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2788": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2789": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2790": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2791": {
+      "captured": 10,
+      "live": 10,
+      "status": "ok"
+    },
+    "2792": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2793": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2794": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2795": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2796": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2797": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2798": {
+      "captured": 10,
+      "live": 10,
+      "status": "ok"
+    },
+    "2799": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    },
+    "2800": {
+      "captured": 3,
+      "live": 0,
+      "status": "ok"
+    },
+    "2801": {
+      "captured": 0,
+      "live": 0,
+      "status": "ok"
+    }
+  }
+}

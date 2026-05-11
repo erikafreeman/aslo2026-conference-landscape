@@ -1,0 +1,125 @@
+{
+  "method": "Coarse 4-category single-label habitat classification. Priority: inland > saltwater > terrestrial/atmospheric > applied/treatment > unclassified.",
+  "categories": {
+    "saltwater": "Saltwater (marine + estuary/coastal)",
+    "inland_waters": "Inland waters (lake / river / wetland / groundwater)",
+    "terrestrial_atmospheric": "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)",
+    "applied_treatment": "Applied (wastewater / drinking water treatment)",
+    "unclassified": "Unclassified"
+  },
+  "n_2025": 343,
+  "habitat_2025": [
+    {
+      "category": "Saltwater (marine + estuary/coastal)",
+      "count": 136,
+      "pct": 39.65
+    },
+    {
+      "category": "Inland waters (lake / river / wetland / groundwater)",
+      "count": 53,
+      "pct": 15.45
+    },
+    {
+      "category": "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)",
+      "count": 88,
+      "pct": 25.66
+    },
+    {
+      "category": "Applied (wastewater / drinking water treatment)",
+      "count": 47,
+      "pct": 13.7
+    },
+    {
+      "category": "Unclassified",
+      "count": 19,
+      "pct": 5.54
+    }
+  ],
+  "n_all_years": 1746,
+  "habitat_all_years": [
+    {
+      "category": "Saltwater (marine + estuary/coastal)",
+      "count": 807,
+      "pct": 46.22
+    },
+    {
+      "category": "Inland waters (lake / river / wetland / groundwater)",
+      "count": 290,
+      "pct": 16.61
+    },
+    {
+      "category": "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)",
+      "count": 363,
+      "pct": 20.79
+    },
+    {
+      "category": "Applied (wastewater / drinking water treatment)",
+      "count": 146,
+      "pct": 8.36
+    },
+    {
+      "category": "Unclassified",
+      "count": 140,
+      "pct": 8.02
+    }
+  ],
+  "themes_2025_multilabel": [
+    {
+      "theme": "Biogeochemistry / C cycling",
+      "count": 310,
+      "pct_of_2025": 90.4
+    },
+    {
+      "theme": "Microbial coupling",
+      "count": 124,
+      "pct_of_2025": 36.2
+    },
+    {
+      "theme": "Disturbance / anthropogenic forcing",
+      "count": 60,
+      "pct_of_2025": 17.5
+    },
+    {
+      "theme": "Methods / instrumentation",
+      "count": 32,
+      "pct_of_2025": 9.3
+    }
+  ],
+  "per_year_2021_2025": {
+    "2021": {
+      "Saltwater (marine + estuary/coastal)": 52,
+      "Inland waters (lake / river / wetland / groundwater)": 18,
+      "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)": 19,
+      "Applied (wastewater / drinking water treatment)": 4,
+      "Unclassified": 11
+    },
+    "2022": {
+      "Saltwater (marine + estuary/coastal)": 64,
+      "Inland waters (lake / river / wetland / groundwater)": 30,
+      "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)": 36,
+      "Applied (wastewater / drinking water treatment)": 19,
+      "Unclassified": 10
+    },
+    "2023": {
+      "Saltwater (marine + estuary/coastal)": 89,
+      "Inland waters (lake / river / wetland / groundwater)": 36,
+      "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)": 44,
+      "Applied (wastewater / drinking water treatment)": 24,
+      "Unclassified": 20
+    },
+    "2024": {
+      "Saltwater (marine + estuary/coastal)": 97,
+      "Inland waters (lake / river / wetland / groundwater)": 47,
+      "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)": 56,
+      "Applied (wastewater / drinking water treatment)": 20,
+      "Unclassified": 27
+    },
+    "2025": {
+      "Saltwater (marine + estuary/coastal)": 136,
+      "Inland waters (lake / river / wetland / groundwater)": 53,
+      "Terrestrial + atmospheric (soil / aerosol / cryosphere / sediment / petroleum)": 88,
+      "Applied (wastewater / drinking water treatment)": 47,
+      "Unclassified": 19
+    }
+  }
+}

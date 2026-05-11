@@ -1,0 +1,88 @@
+# ASLO-SIL 2026 conference landscape analysis
+
+A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Quebec City. 1,461 indexed presentations across 309 sessions, audited against the live conference site on 11 May 2026.
+
+## What's in here
+
+| Path | What |
+|---|---|
+| `data/` | Sanitised conference inventory (sessions, presentations, audit + pruned-withdrawal records). Presenter emails stripped to domain only for privacy; full data available on request. |
+| `scripts/` | Numbered analysis scripts: audit -> inventory completion -> landscape analysis -> FT-ICR-MS sub-analysis (in `scripts/fticr/`). |
+| `output/charts/` | Generated PNG figures. |
+| `output/tables/` | JSON and CSV outputs from each analysis stage. |
+| `output/reports/` | Narrative summaries (the conference-landscape Markdown). |
+| `manuscripts/` | The Meeting Highlights piece (~500 w), the long-form essay (~1,500 w), Bluesky thread, LinkedIn post. |
+
+## Headline findings (2026)
+
+- 1,461 indexed presentations across 309 sessions. 1,400 unique presenters, 741 institutions.
+- The verbs of the schedule have shifted from *describe* to *integrate*: "multiple stressors" 9x, "bridging the gap" 8x, "towards convergence" 6x as session-name bigrams.
+- Three simultaneous legacy sessions (Pace, Cotner, Elser) paired structurally with early-career scaffolding (Amplifying Voices x4, ECR alliance workshops, "How To" first-timer session).
+- Freshwater science dominates: lakes + limnology = 28% of all talks, rivers + wetlands = +11%, marine = 9%.
+- Indigenous knowledge ("Two-Eyed Seeing") programmed as a science session, not as a side workshop. 11 sessions and 28 talks carry equity / community-led framings.
+- AI/ML adoption modest but pointed (2.4%). eDNA / -omics undertold (3.2%). Long-term monitoring holding at 9%.
+- FT-ICR-MS sub-analysis: 1,746 papers since 2000, 343 in 2025. Saltwater 46% of cumulative corpus; inland waters 17%; wastewater 8%.
+
+See `output/reports/conference_landscape.md` for the full read.
+
+## Reproducing the analysis
+
+### Requirements
+
+Python 3.10+. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run pipeline
+
+```bash
+# 1. Audit captured inventory against the live conference site
+python scripts/01_audit_capture.py
+
+# 2. Fill in any missing abstracts and prune withdrawn entries
+python scripts/02_complete_inventory_and_prune.py
+
+# 3. Run the main landscape analysis (methods, frames, countries, institutions)
+python scripts/03_landscape_analysis.py
+
+# 4. FT-ICR-MS sub-analyses (independent — uses OpenAlex)
+python scripts/fticr/01_venue_breakdown.py
+python scripts/fticr/02_comprehensive_subdiscipline.py
+python scripts/fticr/habitat_coarse.py
+```
+
+All scripts read from `data/` and write to `output/`. They are idempotent (running twice gives the same result).
+
+### Data sources
+
+- **Conference inventory**: scraped from the ASLO-SIL 2026 session gallery (public) at https://aslo.secure-platform.com/2026/solicitations/18/sessiongallery. See `data/sessions_all_public.json` for the full dataset.
+- **FT-ICR-MS bibliometrics**: queried via OpenAlex (free, open scholarly metadata) on 11 May 2026. See `output/tables/fticr_comprehensive_subdiscipline.json` for the underlying counts.
+
+## Methodology notes & caveats
+
+- **Multi-label vs single-label classification.** Theme tags (biogeochem, microbial, methods, disturbance) are multi-label — a paper can carry several — so theme percentages do not sum to 100%. Habitat classification (saltwater / inland / terrestrial / applied) is single-label — each paper is in exactly one category, summing to 100%.
+- **Country detection** is keyword-based on affiliation strings and email-domain TLDs. Coverage is ~75%; small countries are likely undercounted.
+- **Methods are systematically undertold in titles** because most presentation titles describe findings, not instruments. The true methodological intensity of the meeting is higher than the per-presentation method counts suggest.
+- **Captured-vs-live audit (May 11, 2026)** showed 8 entries in our scrape that have since been withdrawn from the live program. These are pruned in the analysis; the record is preserved in `data/pruned_withdrawals.json`.
+
+## Citation
+
+If you use these data or scripts, please cite:
+
+> Freeman, E.C. (2026). *ASLO-SIL 2026 conference landscape analysis*. GitHub repository.
+
+Or use the entry in `CITATION.cff`.
+
+## License
+
+- **Code** (everything in `scripts/`): MIT.
+- **Data and figures**: CC-BY-4.0.
+
+See `LICENSE` for details.
+
+## Author
+
+Erika C. Freeman, Group Leader, ABC Lab, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) Berlin.
+[ORCID 0000-0001-7161-6038](https://orcid.org/0000-0001-7161-6038)
