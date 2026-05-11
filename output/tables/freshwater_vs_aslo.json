@@ -1,0 +1,469 @@
+{
+  "method": "World Bank ER.H2O.INTR.K3 (Renewable internal freshwater resources, billion m³/yr) matched against ASLO-SIL 2026 presentation counts (country detected from affiliation strings + email TLDs).",
+  "queried": "2026-05-11",
+  "world_total_freshwater_bcm": 432612.9849,
+  "aslo_total_country_detected": 1138,
+  "aslo_total_all_presentations": 1461,
+  "records": [
+    {
+      "country": "USA",
+      "aslo_talks": 422,
+      "freshwater_bcm": null,
+      "aslo_share_pct": 37.08260105448154,
+      "freshwater_share_pct": null,
+      "rep_index": null
+    },
+    {
+      "country": "Canada",
+      "aslo_talks": 366,
+      "freshwater_bcm": 2850,
+      "aslo_share_pct": 32.161687170474515,
+      "freshwater_share_pct": 0.658787438074423,
+      "rep_index": 48.81952100434742
+    },
+    {
+      "country": "Germany",
+      "aslo_talks": 74,
+      "freshwater_bcm": 107,
+      "aslo_share_pct": 6.502636203866432,
+      "freshwater_share_pct": 0.024733423113671316,
+      "rep_index": 262.9088652218189
+    },
+    {
+      "country": "China",
+      "aslo_talks": 23,
+      "freshwater_bcm": 2812.9,
+      "aslo_share_pct": 2.0210896309314585,
+      "freshwater_share_pct": 0.6502116437051032,
+      "rep_index": 3.108356564355994
+    },
+    {
+      "country": "Sweden",
+      "aslo_talks": 21,
+      "freshwater_bcm": 171,
+      "aslo_share_pct": 1.8453427065026362,
+      "freshwater_share_pct": 0.03952724628446538,
+      "rep_index": 46.68533429377485
+    },
+    {
+      "country": "United Kingdom",
+      "aslo_talks": 20,
+      "freshwater_bcm": 145,
+      "aslo_share_pct": 1.757469244288225,
+      "freshwater_share_pct": 0.03351725562133029,
+      "rep_index": 52.434759699412155
+    },
+    {
+      "country": "France",
+      "aslo_talks": 20,
+      "freshwater_bcm": 200,
+      "aslo_share_pct": 1.757469244288225,
+      "freshwater_share_pct": 0.04623069740873143,
+      "rep_index": 38.01520078207381
+    },
+    {
+      "country": "Austria",
+      "aslo_talks": 17,
+      "freshwater_bcm": 55,
+      "aslo_share_pct": 1.4938488576449913,
+      "freshwater_share_pct": 0.012713441787401145,
+      "rep_index": 117.50152969004631
+    },
+    {
+      "country": "Japan",
+      "aslo_talks": 16,
+      "freshwater_bcm": 430,
+      "aslo_share_pct": 1.40597539543058,
+      "freshwater_share_pct": 0.09939599942877259,
+      "rep_index": 14.145190988678625
+    },
+    {
+      "country": "Netherlands",
+      "aslo_talks": 15,
+      "freshwater_bcm": 11,
+      "aslo_share_pct": 1.3181019332161688,
+      "freshwater_share_pct": 0.002542688357480229,
+      "rep_index": 518.3891015737338
+    },
+    {
+      "country": "Brazil",
+      "aslo_talks": 15,
+      "freshwater_bcm": 5661,
+      "aslo_share_pct": 1.3181019332161688,
+      "freshwater_share_pct": 1.3085598901541433,
+      "rep_index": 1.0072920186029097
+    },
+    {
+      "country": "New Zealand",
+      "aslo_talks": 13,
+      "freshwater_bcm": 327,
+      "aslo_share_pct": 1.1423550087873462,
+      "freshwater_share_pct": 0.0755871902632759,
+      "rep_index": 15.113076763515583
+    },
+    {
+      "country": "Switzerland",
+      "aslo_talks": 12,
+      "freshwater_bcm": 40.4,
+      "aslo_share_pct": 1.054481546572935,
+      "freshwater_share_pct": 0.00933860087656375,
+      "rep_index": 112.91643796655588
+    },
+    {
+      "country": "Spain",
+      "aslo_talks": 12,
+      "freshwater_bcm": 111.2,
+      "aslo_share_pct": 1.054481546572935,
+      "freshwater_share_pct": 0.025704267759254676,
+      "rep_index": 41.023597966266706
+    },
+    {
+      "country": "Italy",
+      "aslo_talks": 11,
+      "freshwater_bcm": 182.5,
+      "aslo_share_pct": 0.9666080843585237,
+      "freshwater_share_pct": 0.04218551138546743,
+      "rep_index": 22.913271704263668
+    },
+    {
+      "country": "Finland",
+      "aslo_talks": 10,
+      "freshwater_bcm": 107,
+      "aslo_share_pct": 0.8787346221441125,
+      "freshwater_share_pct": 0.024733423113671316,
+      "rep_index": 35.52822502997553
+    },
+    {
+      "country": "Denmark",
+      "aslo_talks": 7,
+      "freshwater_bcm": 6,
+      "aslo_share_pct": 0.6151142355008787,
+      "freshwater_share_pct": 0.001386920922261943,
+      "rep_index": 443.5106757908611
+    },
+    {
+      "country": "Israel",
+      "aslo_talks": 7,
+      "freshwater_bcm": 0.75,
+      "aslo_share_pct": 0.6151142355008787,
+      "freshwater_share_pct": 0.00017336511528274288,
+      "rep_index": 3548.085406326889
+    },
+    {
+      "country": "Argentina",
+      "aslo_talks": 6,
+      "freshwater_bcm": 292,
+      "aslo_share_pct": 0.5272407732864675,
+      "freshwater_share_pct": 0.0674968182167479,
+      "rep_index": 7.811342626453523
+    },
+    {
+      "country": "Mexico",
+      "aslo_talks": 6,
+      "freshwater_bcm": 409,
+      "aslo_share_pct": 0.5272407732864675,
+      "freshwater_share_pct": 0.09454177620085578,
+      "rep_index": 5.576802070719874
+    },
+    {
+      "country": "Norway",
+      "aslo_talks": 5,
+      "freshwater_bcm": 382,
+      "aslo_share_pct": 0.43936731107205623,
+      "freshwater_share_pct": 0.08830063205067704,
+      "rep_index": 4.97581162069029
+    },
+    {
+      "country": "Estonia",
+      "aslo_talks": 5,
+      "freshwater_bcm": 12.71,
+      "aslo_share_pct": 0.43936731107205623,
+      "freshwater_share_pct": 0.0029379608203248826,
+      "rep_index": 149.54839017338242
+    },
+    {
+      "country": "Hungary",
+      "aslo_talks": 5,
+      "freshwater_bcm": 6,
+      "aslo_share_pct": 0.43936731107205623,
+      "freshwater_share_pct": 0.001386920922261943,
+      "rep_index": 316.7933398506151
+    },
+    {
+      "country": "Australia",
+      "aslo_talks": 5,
+      "freshwater_bcm": 492,
+      "aslo_share_pct": 0.43936731107205623,
+      "freshwater_share_pct": 0.11372751562547932,
+      "rep_index": 3.8633334128123797
+    },
+    {
+      "country": "Ghana",
+      "aslo_talks": 4,
+      "freshwater_bcm": 30.3,
+      "aslo_share_pct": 0.351493848857645,
+      "freshwater_share_pct": 0.0070039506574228125,
+      "rep_index": 50.1850835406915
+    },
+    {
+      "country": "Czechia",
+      "aslo_talks": 4,
+      "freshwater_bcm": 13.15,
+      "aslo_share_pct": 0.351493848857645,
+      "freshwater_share_pct": 0.003039668354624092,
+      "rep_index": 115.6355917325439
+    },
+    {
+      "country": "Chile",
+      "aslo_talks": 4,
+      "freshwater_bcm": 885,
+      "aslo_share_pct": 0.351493848857645,
+      "freshwater_share_pct": 0.2045708360336366,
+      "rep_index": 1.7182011652914715
+    },
+    {
+      "country": "Belgium",
+      "aslo_talks": 3,
+      "freshwater_bcm": 12,
+      "aslo_share_pct": 0.26362038664323373,
+      "freshwater_share_pct": 0.002773841844523886,
+      "rep_index": 95.03800195518453
+    },
+    {
+      "country": "Korea, Rep.",
+      "aslo_talks": 3,
+      "freshwater_bcm": 64.85,
+      "aslo_share_pct": 0.26362038664323373,
+      "freshwater_share_pct": 0.014990303634781165,
+      "rep_index": 17.586060500573854
+    },
+    {
+      "country": "Singapore",
+      "aslo_talks": 2,
+      "freshwater_bcm": 0.6,
+      "aslo_share_pct": 0.1757469244288225,
+      "freshwater_share_pct": 0.0001386920922261943,
+      "rep_index": 1267.1733594024604
+    },
+    {
+      "country": "Poland",
+      "aslo_talks": 2,
+      "freshwater_bcm": 53.6,
+      "aslo_share_pct": 0.1757469244288225,
+      "freshwater_share_pct": 0.012389826905540025,
+      "rep_index": 14.18477641122157
+    },
+    {
+      "country": "Kenya",
+      "aslo_talks": 1,
+      "freshwater_bcm": 20.7,
+      "aslo_share_pct": 0.08787346221441125,
+      "freshwater_share_pct": 0.004784877181803703,
+      "rep_index": 18.364831295687832
+    },
+    {
+      "country": "Portugal",
+      "aslo_talks": 1,
+      "freshwater_bcm": 38,
+      "aslo_share_pct": 0.08787346221441125,
+      "freshwater_share_pct": 0.008783832507658972,
+      "rep_index": 10.004000205808898
+    },
+    {
+      "country": "Turkey",
+      "aslo_talks": 1,
+      "freshwater_bcm": null,
+      "aslo_share_pct": 0.08787346221441125,
+      "freshwater_share_pct": null,
+      "rep_index": null
+    }
+  ],
+  "big_freshwater_no_aslo": [
+    {
+      "country": "World",
+      "freshwater_bcm": 42808.6021,
+      "freshwater_share_pct": 9.895357650879426
+    },
+    {
+      "country": "IDA & IBRD total",
+      "freshwater_bcm": 33756.384,
+      "freshwater_share_pct": 7.8029058715847155
+    },
+    {
+      "country": "Low & middle income",
+      "freshwater_bcm": 26996.83,
+      "freshwater_share_pct": 6.240411393624815
+    },
+    {
+      "country": "IBRD only",
+      "freshwater_bcm": 26770.09,
+      "freshwater_share_pct": 6.187999651972536
+    },
+    {
+      "country": "Middle income",
+      "freshwater_bcm": 24800.148,
+      "freshwater_share_pct": 5.732640689398781
+    },
+    {
+      "country": "Late-demographic dividend",
+      "freshwater_bcm": 18269.616,
+      "freshwater_share_pct": 4.223085445348592
+    },
+    {
+      "country": "Upper middle income",
+      "freshwater_bcm": 17667.907,
+      "freshwater_share_pct": 4.08399831181304
+    },
+    {
+      "country": "High income",
+      "freshwater_bcm": 14884.7721,
+      "freshwater_share_pct": 3.4406669747651395
+    },
+    {
+      "country": "Latin America & Caribbean",
+      "freshwater_bcm": 13867.706,
+      "freshwater_share_pct": 3.205568599196247
+    },
+    {
+      "country": "Latin America & the Caribbean (IDA & IBRD countries)",
+      "freshwater_bcm": 13821.786,
+      "freshwater_share_pct": 3.194954031071202
+    },
+    {
+      "country": "OECD members",
+      "freshwater_bcm": 12756.83,
+      "freshwater_share_pct": 2.9487857381231373
+    },
+    {
+      "country": "Early-demographic dividend",
+      "freshwater_bcm": 12082.019,
+      "freshwater_share_pct": 2.7928008223777194
+    },
+    {
+      "country": "Latin America & Caribbean (excluding high income)",
+      "freshwater_bcm": 11583.11,
+      "freshwater_share_pct": 2.6774762673102557
+    },
+    {
+      "country": "East Asia & Pacific",
+      "freshwater_bcm": 10105.555,
+      "freshwater_share_pct": 2.335934276761465
+    },
+    {
+      "country": "Post-demographic dividend",
+      "freshwater_bcm": 8884.4325,
+      "freshwater_share_pct": 2.053667552778997
+    },
+    {
+      "country": "East Asia & Pacific (excluding high income)",
+      "freshwater_bcm": 8782.595,
+      "freshwater_share_pct": 2.030127459542188
+    },
+    {
+      "country": "East Asia & Pacific (IDA & IBRD countries)",
+      "freshwater_bcm": 8715.605,
+      "freshwater_share_pct": 2.014642487445134
+    },
+    {
+      "country": "Lower middle income",
+      "freshwater_bcm": 7132.241,
+      "freshwater_share_pct": 1.6486423775857404
+    },
+    {
+      "country": "Europe & Central Asia",
+      "freshwater_bcm": 7070.9216,
+      "freshwater_share_pct": 1.6344681844523155
+    },
+    {
+      "country": "IDA total",
+      "freshwater_bcm": 6986.294,
+      "freshwater_share_pct": 1.61490621961218
+    },
+    {
+      "country": "North America",
+      "freshwater_bcm": 5668,
+      "freshwater_share_pct": 1.3101779645634488
+    },
+    {
+      "country": "IDA only",
+      "freshwater_bcm": 5133.389,
+      "freshwater_share_pct": 1.1866007677015522
+    },
+    {
+      "country": "Europe & Central Asia (IDA & IBRD countries)",
+      "freshwater_bcm": 5128.196,
+      "freshwater_share_pct": 1.1854003876433346
+    },
+    {
+      "country": "Fragile and conflict affected situations",
+      "freshwater_bcm": 4978.516,
+      "freshwater_share_pct": 1.15080133370264
+    },
+    {
+      "country": "Least developed countries: UN classification",
+      "freshwater_bcm": 4508.902,
+      "freshwater_share_pct": 1.04224842003812
+    },
+    {
+      "country": "Russian Federation",
+      "freshwater_bcm": 4312,
+      "freshwater_share_pct": 0.9967338361322498
+    },
+    {
+      "country": "Heavily indebted poor countries (HIPC)",
+      "freshwater_bcm": 4053.047,
+      "freshwater_share_pct": 0.9368759472018335
+    },
+    {
+      "country": "Sub-Saharan Africa",
+      "freshwater_bcm": 3883.761,
+      "freshwater_share_pct": 0.8977448979941609
+    },
+    {
+      "country": "Sub-Saharan Africa (IDA & IBRD countries)",
+      "freshwater_bcm": 3883.761,
+      "freshwater_share_pct": 0.8977448979941609
+    },
+    {
+      "country": "Sub-Saharan Africa (excluding high income)",
+      "freshwater_bcm": 3761.761,
+      "freshwater_share_pct": 0.8695441725748347
+    },
+    {
+      "country": "Pre-demographic dividend",
+      "freshwater_bcm": 3569.805,
+      "freshwater_share_pct": 0.8251728738158826
+    },
+    {
+      "country": "United States",
+      "freshwater_bcm": 2818,
+      "freshwater_share_pct": 0.651390526489026
+    },
+    {
+      "country": "Low income",
+      "freshwater_bcm": 2196.682,
+      "freshwater_share_pct": 0.5077707042260349
+    },
+    {
+      "country": "Colombia",
+      "freshwater_bcm": 2145,
+      "freshwater_share_pct": 0.49582422970864465
+    },
+    {
+      "country": "Indonesia",
+      "freshwater_bcm": 2018.7,
+      "freshwater_share_pct": 0.46662954429503073
+    },
+    {
+      "country": "Africa Eastern and Southern",
+      "freshwater_bcm": 1985.321,
+      "freshwater_share_pct": 0.4589138720510004
+    },
+    {
+      "country": "Africa Western and Central",
+      "freshwater_bcm": 1898.44,
+      "freshwater_share_pct": 0.43883102594316054
+    }
+  ],
+  "interpretation_note": "Rep index >1 = country's ASLO share exceeds its freshwater share (strong research investment, possibly proximity advantage). <1 = freshwater share exceeds presentation share. Index is descriptive only; reflects travel/funding/visa realities at least as much as scientific capacity."
+}
