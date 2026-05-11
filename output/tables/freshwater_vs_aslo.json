@@ -270,12 +270,12 @@
       "rep_index": 10.004000205808898
     },
     {
-      "country": "Turkey",
+      "country": "Turkiye",
       "aslo_talks": 1,
-      "freshwater_bcm": null,
+      "freshwater_bcm": 227,
       "aslo_share_pct": 0.08787346221441125,
-      "freshwater_share_pct": null,
-      "rep_index": null
+      "freshwater_share_pct": 0.05247184155891018,
+      "rep_index": 1.6746784485495072
     }
   ],
   "big_freshwater_no_aslo": [
@@ -370,11 +370,6 @@
       "freshwater_share_pct": 0.055707990377521374
     },
     {
-      "country": "Turkiye",
-      "freshwater_bcm": 227,
-      "freshwater_share_pct": 0.05247184155891018
-    },
-    {
       "country": "Guinea",
       "freshwater_bcm": 226,
       "freshwater_share_pct": 0.05224068807186652
@@ -403,6 +398,11 @@
       "country": "Nepal",
       "freshwater_bcm": 198.2,
       "freshwater_share_pct": 0.04581462113205285
+    },
+    {
+      "country": "Lao PDR",
+      "freshwater_bcm": 190.4,
+      "freshwater_share_pct": 0.04401162393311232
     }
   ],
   "interpretation_note": "Rep index >1 = country's ASLO share exceeds its freshwater share (strong research investment, possibly proximity advantage). <1 = freshwater share exceeds presentation share. Index is descriptive only; reflects travel/funding/visa realities at least as much as scientific capacity."

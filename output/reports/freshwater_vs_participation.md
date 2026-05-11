@@ -21,7 +21,7 @@ The index is **descriptive, not normative.** Low-index countries are not "doing 
 
 - Total country-detected presentations: **1138** of 1461
 - World renewable internal freshwater (sum of WB country values): **432613 bcm/yr**
-- Countries represented with both metrics: **33**
+- Countries represented with both metrics: **34**
 
 ## Top countries by ASLO presentations (with freshwater context)
 
