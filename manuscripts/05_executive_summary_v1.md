@@ -24,4 +24,4 @@ I read the full ASLO-SIL 2026 program before flying. Six things stand out.
 
 ---
 
-*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: [github.com/erika-freeman/aslo2026-conference-landscape] (URL pending).*
+*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: [github.com/erikafreeman/aslo2026-conference-landscape] (URL pending).*

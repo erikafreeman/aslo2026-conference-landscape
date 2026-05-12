@@ -22,6 +22,6 @@ I read the full ASLO-SIL 2026 programme before flying. Six things the schedule i
 
 ---
 
-*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: github.com/erika-freeman/aslo2026-conference-landscape*
+*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: github.com/erikafreeman/aslo2026-conference-landscape*
 
 *Version note (v3): two changes vs v2. (1) Finding 6 reframed from deficit to opportunity language. (2) Corrected freshwater denominator bug carried over from v2; Brazil is not at parity (holds ~13% of global freshwater, contributes ~1.3% of presentations). Japan is the closest-to-parity country.*

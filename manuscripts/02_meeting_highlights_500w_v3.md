@@ -26,6 +26,6 @@ A conference is never only the thing that happens in the rooms. It is also a rec
 
 ---
 
-*Erika C. Freeman, IGB Berlin · SS050B "Ecological Significance of Dissolved Organic Matter" · 15 May 2026 · Palais des congrès de Montréal. Full inventory, classifier code, and reproducible analysis at github.com/erika-freeman/aslo2026-conference-landscape.*
+*Erika C. Freeman, IGB Berlin · SS050B "Ecological Significance of Dissolved Organic Matter" · 15 May 2026 · Palais des congrès de Montréal. Full inventory, classifier code, and reproducible analysis at github.com/erikafreeman/aslo2026-conference-landscape.*
 
 *Version note (v3): two changes vs v2. (1) Reframed throughout from deficit language to opportunity language; new title ("…in numbers, verbs, and invitations"); paragraph openers rewritten ("Freshwater science is a major center of gravity…" and "The geography of participation points to one of the field's clearest opportunities…"); closing reframed as abundance and invitation. (2) Corrected the freshwater denominator bug carried over from v2: the v2 claim "Brazil is the only top-20 country at parity" was wrong — Brazil holds about 13% of global freshwater and contributes about 1.3% of presentations, an order of magnitude under-represented. Japan is the closest-to-parity country in the meeting.*

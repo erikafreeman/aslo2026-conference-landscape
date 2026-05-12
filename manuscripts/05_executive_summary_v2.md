@@ -22,6 +22,6 @@ I read the full ASLO-SIL 2026 programme before flying. Six things the schedule i
 
 ---
 
-*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: github.com/erika-freeman/aslo2026-conference-landscape*
+*Erika C. Freeman · IGB Berlin · erika.freeman@igb-berlin.de · SS050B, 15 May 2026, Palais des congrès de Montréal. Data and reproducible analysis: github.com/erikafreeman/aslo2026-conference-landscape*
 
 *Version note (v2): every assertion in v1 was audited against the data. Removed claims: "the verbs have changed" (historical contrast unverified), "the field's methodological soul" (vibe), "strong identity. Confident craft. Room to grow" (vibe), "a field in synthesis mode" (interpretation), "Montreal venue helped" (causal-historical claim unverified). Updated FT-ICR-MS count from the v1 figure to the audited count (7 specifically, 14 ultra-high-resolution MS). Specific session codes added throughout for verifiability.*
