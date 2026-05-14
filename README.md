@@ -61,14 +61,47 @@ python scripts/03_landscape_analysis.py
 python scripts/fticr/01_venue_breakdown.py
 python scripts/fticr/02_comprehensive_subdiscipline.py
 python scripts/fticr/habitat_coarse.py
+
+# 5. UHR-MS adjacent communities (added 2026-05-14)
+python scripts/fticr/03_communities_strict_fticr.py    # strict FT-ICR variants only
+python scripts/fticr/04_communities_uhrms_expanded.py  # adds Orbitrap + ultrahigh-res
+python scripts/fticr/05_environmental_nts.py           # non-target screening / suspect screening
+python scripts/fticr/06_consolidated_comparison.py     # builds the headline comparison charts
+python scripts/fticr/07_habitat_mismatch_vs_aslo.py    # ASLO program vs FT-ICR literature habitat share
 ```
 
 All scripts read from `data/` and write to `output/`. They are idempotent (running twice gives the same result).
 
+> **Note on paths.** Scripts 03-07 hard-code Windows output paths near the top of each file (`OUT_LISTS`, `OUT_RAW`, etc.) and use a personal email in the OpenAlex `mailto` polite-pool. Edit those two-to-three constants to local paths and your own email before running. Scripts 01-02 follow the same pattern with a single `base_dir`.
+
 ### Data sources
 
 - **Conference inventory**: scraped from the ASLO-SIL 2026 session gallery (public) at https://aslo.secure-platform.com/2026/solicitations/18/sessiongallery. See `data/sessions_all_public.json` for the full dataset.
-- **FT-ICR-MS bibliometrics**: queried via OpenAlex (free, open scholarly metadata) on 11 May 2026. See `output/tables/fticr_comprehensive_subdiscipline.json` for the underlying counts.
+- **FT-ICR-MS bibliometrics**: queried via OpenAlex (free, open scholarly metadata) on 11-14 May 2026. See `output/tables/fticr_comprehensive_subdiscipline.json` for the DOM corpus and `output/tables/fticr_communities_v3_consolidated.csv` for the cross-community comparison.
+
+## UHR-MS adjacent communities (2026-05-14)
+
+Pulls FT-ICR-MS and Orbitrap publication counts for the seven application communities that use the same instruments, plus the environmental non-target screening (NTS) literature, and compares each against the DOM corpus.
+
+| Community | Total 2000-2025 | 2025 papers |
+|---|---|---|
+| Environmental non-target screening (NTS) | 1,830 | 360 |
+| **DOM science (this repo)** | **1,746** | **343** |
+| Petroleomics (NHMFL / Marshall lineage) | 731 | 37 |
+| Proteomics (top-down, intact, PTMs) | 636 | 34 |
+| Lipidomics | 427 | 52 |
+| MALDI imaging of tissue | 405 | 37 |
+| Microbiome / exposome | 220 | 55 |
+| Pharma (drug metabolism, ADME, impurity profiling) | 207 | 17 |
+| Clinical metabolomics | 94 | 4 |
+
+**Headline.** Environmental NTS and DOM science are functionally identical in scale and growth trajectory (within 5% on both cumulative count and 2025 output). Same instruments, same molecular-formula assignment workflow, different molecules (anthropogenic contaminants vs. natural organic matter), different anchor labs (Schymanski / Hollender / Reemtsma vs. Dittmar / Kujawinski / Spencer), almost no citation overlap. See `output/charts/uhrms_dom_vs_nts_growth_v1.png`.
+
+Per-community CSVs in `output/tables/fticr_<community>_v2.csv`. Consolidated summary in `output/tables/fticr_communities_v3_consolidated.csv`.
+
+## Replication guide
+
+See `docs/openalex_replication_guide.md` for a step-by-step explainer of OpenAlex, the query construction, and how to regenerate the FT-ICR-MS growth figure from scratch.
 
 ## Methodology notes & caveats
 
