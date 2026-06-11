@@ -6,7 +6,7 @@ erika.freeman@igb-berlin.de · ORCID 0000-0001-7161-6038
 
 A conference programme is more than a schedule. It is an artefact of collective attention, a record of what a field measures, debates, connects, and chooses to make visible.
 
-Over five days in Montreal, ASLO-SIL 2026 convened 1,461 scheduled presentations across 309 session items, drawing about 1,400 presenters from some 720 institutions. Read closely, the metadata (session titles, keywords, and method tags) maps where the field is placing its attention. Treating the schedule as a dataset turns up familiar strengths, emerging priorities, and a few structural gaps worth taking seriously. The raw material is imperfect, of course: scraped text, noisy tags, and names a classifier can only guess at. When life gives you weird, bad-tasting fruit, you make lemon. What follows is one participant's reading of the programme's underlying network, and what it suggests about where the field is now, and where it may be heading.
+Over five days in Montreal, ASLO-SIL 2026 convened 1,461 scheduled presentations across 309 session items, drawing about 1,400 presenters from some 720 institutions. Read closely, the metadata (session titles, keywords, and method tags) maps where the field is placing its attention. Treating the schedule as a dataset turns up familiar strengths, emerging priorities, and a few structural gaps worth taking seriously. What follows is one participant's reading of the programme's underlying network, and what it suggests about where the field is now, and where it may be heading.
 
 ## Unexpected signals
 
@@ -58,7 +58,7 @@ A few gentle opportunities also emerge, offered as a member rather than an organ
 
 Taken as a whole, the ASLO-SIL 2026 programme shows a community crossing disciplinary boundaries, scaling its methods, pairing long careers with new ones, and treating equity as part of the science rather than an add-on. Those are good directions.
 
-The clearest gap is geographic, and it is the one most open to a direct fix: travel support, hybrid access, and how international authorship is valued and funded are levers a future meeting can pull. My thanks to the organisers who built this programme, and to the community that turned it into a conversation.
+The clearest gap is geographic, and also the most fixable: travel support, hybrid access, and how first authorship is valued and funded will decide how much of the world shows up next time. The science is strong; the room could be wider. My thanks to the organisers who built this one, and to the community that made five days in Montreal worth the trip.
 
 ---
 
