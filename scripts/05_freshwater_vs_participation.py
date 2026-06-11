@@ -139,11 +139,30 @@ while True:
         if country and val is not None:
             # Keep the most recent non-null value per country
             if country not in freshwater_bcm or rec.get("date", "0") > freshwater_bcm[country].get("date", "0"):
-                freshwater_bcm[country] = {"value_bcm": val, "date": rec.get("date")}
+                freshwater_bcm[country] = {"value_bcm": val, "date": rec.get("date"),
+                                           "iso3": rec.get("countryiso3code")}
     if page >= page_meta.get("pages", 1):
         break
     page += 1
     time.sleep(0.1)
+
+# Exclude World Bank aggregate groupings (regions, income groups, the World total).
+# The country/all endpoint returns these alongside individual countries; summing
+# them inflated the world freshwater total ~10x. Filter via country region
+# metadata (region.value == "Aggregates"), matching on ISO3 code.
+print("  Filtering out World Bank aggregate groupings ...")
+_meta = requests.get("https://api.worldbank.org/v2/country",
+                     params={"format": "json", "per_page": 400}).json()
+_real_iso3 = set()
+if isinstance(_meta, list) and len(_meta) > 1:
+    for _c in _meta[1]:
+        if (_c.get("region") or {}).get("value") != "Aggregates":
+            _real_iso3.add(_c.get("id"))
+_before = len(freshwater_bcm)
+freshwater_bcm = {name: v for name, v in freshwater_bcm.items()
+                  if v.get("iso3") in _real_iso3}
+print("  Removed {} aggregate rows ({} -> {} real countries)".format(
+    _before - len(freshwater_bcm), _before, len(freshwater_bcm)))
 
 # Flatten: just the numeric value
 fresh = {c: v["value_bcm"] for c, v in freshwater_bcm.items()}
@@ -336,7 +355,9 @@ top_under = sorted([r for r in records if r["rep_index"] is not None and r["aslo
 
 report = """# Country participation vs. freshwater endowment — ASLO-SIL 2026
 
-*Generated 2026-05-11. Data: World Bank ER.H2O.INTR.K3 (renewable internal freshwater resources, billion cubic metres per year) cross-referenced against the ASLO-SIL 2026 program (1,461 presentations, country detected from affiliation strings).*
+*Generated 2026-05-11; corrected 2026-06-11. Data: World Bank ER.H2O.INTR.K3 (renewable internal freshwater resources, billion cubic metres per year) cross-referenced against the ASLO-SIL 2026 program (1,461 presentations, country detected from affiliation strings).*
+
+> **Correction (2026-06-11).** An earlier version summed World Bank rows that include aggregate groupings (regions, income groups, the World total), inflating the world freshwater total ~10x and skewing every "% of global FW" and "Rep index". The pipeline now filters to real countries only (via WB region metadata); the world total is ~42,810 bcm/yr and Brazil holds ~13% of global renewable freshwater (not 1.31%).
 
 ## What this is
 
@@ -356,7 +377,7 @@ The index is **descriptive, not normative.** Low-index countries are not "doing 
 ## Headline numbers
 
 - Total country-detected presentations: **{n_detect}** of {n_total}
-- World renewable internal freshwater (sum of WB country values): **{world:.0f} bcm/yr**
+- World renewable internal freshwater (sum of real-country WB values, excluding aggregate groupings): **{world:,.0f} bcm/yr**
 - Countries represented with both metrics: **{n_match}**
 
 ## Top countries by ASLO presentations (with freshwater context)

@@ -1,6 +1,6 @@
 # ASLO-SIL 2026 conference landscape analysis
 
-A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Palais des congrès de Montréal, Quebec, Canada. 1,455 scheduled presentations across 308 session items, audited against the live conference site on 11 May 2026.
+A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Palais des congrès de Montréal, Quebec, Canada. 1,461 scheduled presentations across 309 session items, audited against the live conference site on 11 May 2026.
 
 ## What's in here
 
@@ -15,11 +15,11 @@ A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Me
 
 ## Headline findings (2026)
 
-- 1,461 indexed presentations across 309 sessions. 1,400 unique presenters, 741 institutions.
+- 1,461 indexed presentations across 309 sessions. 1,400 unique presenters, ~720 institutions.
 - The verbs of the schedule have shifted from *describe* to *integrate*: "multiple stressors" 9x, "bridging the gap" 8x, "towards convergence" 6x as session-name bigrams.
-- Three simultaneous legacy sessions (Pace, Cotner, Elser) paired structurally with early-career scaffolding (Amplifying Voices x4, ECR alliance workshops, "How To" first-timer session).
+- Three simultaneous legacy sessions (Pace, Cotner, Elser) paired structurally with early-career scaffolding (Amplifying Voices x2, ECR alliance workshops, "How To" first-timer session).
 - Freshwater science dominates: lakes + limnology = 28% of all talks, rivers + wetlands = +11%, marine = 9%.
-- Indigenous knowledge ("Two-Eyed Seeing") programmed as a science session, not as a side workshop. 11 sessions and 28 talks carry equity / community-led framings.
+- Indigenous knowledge ("Two-Eyed Seeing") programmed as a science session, not as a side workshop. 14 sessions and 58 talks carry equity / community-led framings.
 - AI/ML adoption modest but pointed (2.4%). eDNA / -omics undertold (3.2%). Long-term monitoring holding at 9%.
 - FT-ICR-MS sub-analysis: 1,746 papers since 2000, 343 in 2025. Saltwater 46% of cumulative corpus; inland waters 17%; wastewater 8%.
 
@@ -28,7 +28,7 @@ A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Me
 - **Geography:** North America 54% of presentations, Europe 17%, Asia 4%, Latin America 2%, Africa 0.3%. High-income countries 74%; lower-middle income 0.3% (5 talks from Philippines/Kenya/India/Indonesia combined).
 - **Gender (name-inferred, with explicit caveats):** of the 88% of presenter names the tool could classify, ~53% female-inferred, ~41% male-inferred. Among session organisers, 56% female-inferred — slightly above the presenter rate.
 - **Equity-content sessions:** 14 sessions (58 talks, 4% of program) explicitly programme Indigenous knowledge, equity, community-led, or citizen science. EP013 Two-Eyed Seeing sits as a peer to the Pace/Cotner/Elser legacy sessions.
-- **ECR scaffolding:** 32 sessions (88 talks, 6%) — Amplifying Voices x4, ECR alliance workshops, "How To" first-timer guides, mentorship cafes.
+- **ECR scaffolding:** 32 sessions (88 talks, 6%) — Amplifying Voices x2, ECR alliance workshops, "How To" first-timer guides, mentorship cafes.
 - **Institutional type:** 72% university, 8% research institute, <1% government/industry/NGO.
 
 See `output/reports/dei_sweep.md` for full methodology, gender-by-continent breakdown, and limitations (name-inference biases, country-detection coverage, what this analysis is *not*).
@@ -106,7 +106,7 @@ See `docs/openalex_replication_guide.md` for a step-by-step explainer of OpenAle
 ## Methodology notes & caveats
 
 - **Multi-label vs single-label classification.** Theme tags (biogeochem, microbial, methods, disturbance) are multi-label — a paper can carry several — so theme percentages do not sum to 100%. Habitat classification (saltwater / inland / terrestrial / applied) is single-label — each paper is in exactly one category, summing to 100%.
-- **Country detection** is keyword-based on affiliation strings and email-domain TLDs. Coverage is ~75%; small countries are likely undercounted.
+- **Country detection** is keyword-based on affiliation strings and email-domain TLDs. Coverage is ~78%; small countries are likely undercounted.
 - **Methods are systematically undertold in titles** because most presentation titles describe findings, not instruments. The true methodological intensity of the meeting is higher than the per-presentation method counts suggest.
 - **Captured-vs-live audit (May 11, 2026)** showed 8 entries in our scrape that have since been withdrawn from the live program. These are pruned in the analysis; the record is preserved in `data/pruned_withdrawals.json`.
 
@@ -127,5 +127,5 @@ See `LICENSE` for details.
 
 ## Author
 
-Erika C. Freeman, Group Leader, ABC Lab, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) Berlin.
+Erika C. Freeman, Group Leader, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB) Berlin.
 [ORCID 0000-0001-7161-6038](https://orcid.org/0000-0001-7161-6038)
