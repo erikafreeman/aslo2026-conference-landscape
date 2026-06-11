@@ -11,7 +11,7 @@ A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Me
 | `output/charts/` | Generated PNG figures. |
 | `output/tables/` | JSON and CSV outputs from each analysis stage. |
 | `output/reports/` | Narrative summaries (the conference-landscape Markdown). |
-| `manuscripts/` | The Meeting Highlights piece (~500 w), the long-form essay (~1,500 w), Bluesky thread, LinkedIn post. |
+| `manuscripts/` | The current submission (`00_SUBMISSION_reading_the_room_1100w.md`, ~1,100 w), plus drafting history: the Meeting Highlights cut (~500 w), the long-form essay (~1,500 w), Bluesky thread, LinkedIn post. |
 
 ## Headline findings (2026)
 
@@ -72,7 +72,7 @@ python scripts/fticr/07_habitat_mismatch_vs_aslo.py    # ASLO program vs FT-ICR 
 
 All scripts read from `data/` and write to `output/`. They are idempotent (running twice gives the same result).
 
-> **Note on paths.** Scripts 03-07 hard-code Windows output paths near the top of each file (`OUT_LISTS`, `OUT_RAW`, etc.) and use a personal email in the OpenAlex `mailto` polite-pool. Edit those two-to-three constants to local paths and your own email before running. Scripts 01-02 follow the same pattern with a single `base_dir`.
+> **Note on paths and data.** The analysis scripts read the bundled public inventory (`data/sessions_all_public.json`) and write to `output/` using repository-relative paths, so `scripts/03`, `04`, `05`, and `09` run from a fresh clone with no edits. The FT-ICR-MS scripts query OpenAlex and identify themselves with an email in the `mailto` polite-pool; change that constant to your own address before running. Scripts `01`-`02` ingest the raw, pre-sanitisation capture and so are not reproducible from this repository alone (the raw file, which still carries presenter emails, is held privately and available on request; the public file in `data/` is its sanitised output). See [`docs/paper_claims_map.md`](docs/paper_claims_map.md) for a claim-by-claim trace from the manuscript to the script and output behind each number.
 
 ### Data sources
 

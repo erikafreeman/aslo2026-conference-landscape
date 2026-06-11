@@ -2,7 +2,7 @@
 
 .PHONY: all install audit inventory landscape fticr dei clean
 
-all: landscape fticr dei
+all: landscape dei freshwater fticr
 
 install:
 	pip install -r requirements.txt
@@ -23,6 +23,10 @@ fticr:
 
 dei:
 	python scripts/04_dei_analysis.py
+
+freshwater:
+	python scripts/05_freshwater_vs_participation.py
+	python scripts/09_freshwater_proportion_plot.py
 
 clean:
 	rm -rf output/charts/*.png output/tables/*.json output/tables/*.csv

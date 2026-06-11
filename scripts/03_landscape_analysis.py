@@ -8,13 +8,16 @@ from pathlib import Path
 from collections import Counter, defaultdict
 import matplotlib.pyplot as plt
 
-SRC = Path(r"C:\Users\erika\Organise\aslo2026")
-OUT_DIR = Path(r"G:\My Drive\3-WorkAndPurpose\0-ABC_Lab\06-Teaching_Outreach\1-ConferenceTalks\ASLO2026\_ConferenceLandscape")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+ROOT = Path(__file__).resolve().parent.parent
+SRC = ROOT / "data"
+OUT_CHARTS = ROOT / "output" / "charts"
+OUT_TABLES = ROOT / "output" / "tables"
+for _d in (OUT_CHARTS, OUT_TABLES):
+    _d.mkdir(parents=True, exist_ok=True)
 
 # --- Load sessions (JSONL) ---
 sessions = []
-with open(SRC / "sessions_all.json", "r", encoding="utf-8") as f:
+with open(SRC / "sessions_all_public.json", "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
         if line:
@@ -305,9 +308,9 @@ data = {
     },
 }
 
-with open(OUT_DIR / "aslo2026_landscape_data.json", "w", encoding="utf-8") as f:
+with open(OUT_TABLES / "aslo2026_landscape_data.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
-print("Saved data JSON: {}".format(OUT_DIR / "aslo2026_landscape_data.json"))
+print("Saved data JSON: {}".format(OUT_TABLES / "aslo2026_landscape_data.json"))
 
 # --- Print summary tables for console + later MD ---
 print("\n=== COMMUNITY STRUCTURE ===")
@@ -369,7 +372,7 @@ ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
 ax.set_xlim(0, max(values) * 1.18)
 ax.grid(axis="x", linestyle=":", color="#c8c4ba", alpha=0.5)
 plt.tight_layout()
-plt.savefig(OUT_DIR / "aslo2026_methods.png", dpi=200, facecolor=BG, bbox_inches="tight")
+plt.savefig(OUT_CHARTS / "methods.png", dpi=200, facecolor=BG, bbox_inches="tight")
 plt.close()
 print("Saved methods chart")
 
@@ -392,7 +395,7 @@ ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
 ax.set_xlim(0, max(values) * 1.18)
 ax.grid(axis="x", linestyle=":", color="#c8c4ba", alpha=0.5)
 plt.tight_layout()
-plt.savefig(OUT_DIR / "aslo2026_frames.png", dpi=200, facecolor=BG, bbox_inches="tight")
+plt.savefig(OUT_CHARTS / "frames.png", dpi=200, facecolor=BG, bbox_inches="tight")
 plt.close()
 print("Saved frames chart")
 
@@ -414,8 +417,8 @@ ax.spines["top"].set_visible(False); ax.spines["right"].set_visible(False)
 ax.set_xlim(0, max(values) * 1.15)
 ax.grid(axis="x", linestyle=":", color="#c8c4ba", alpha=0.5)
 plt.tight_layout()
-plt.savefig(OUT_DIR / "aslo2026_countries.png", dpi=200, facecolor=BG, bbox_inches="tight")
+plt.savefig(OUT_CHARTS / "countries.png", dpi=200, facecolor=BG, bbox_inches="tight")
 plt.close()
 print("Saved countries chart")
 
-print("\nDone. Output dir: {}".format(OUT_DIR))
+print("\nDone. Charts -> {}".format(OUT_CHARTS))
