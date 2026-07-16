@@ -2,6 +2,46 @@
 
 A reproducible bibliometric and disciplinary read of the [ASLO-SIL 2026 Joint Meeting](https://www.aslo.org/aslo-sil-2026/), 12-16 May 2026, Palais des congrès de Montréal, Quebec, Canada. 1,461 scheduled presentations across 309 session items, audited against the live conference site on 11 May 2026.
 
+## Correction notice (July 2026)
+
+The country detector used for the numbers below was wrong, and this repository has been updated. Two compounding defects:
+
+1. The classifier listed `USA` first with the patterns `\.edu` and `\.gov`, and first match wins, so every `.edu.au` / `.edu.cn` address resolved to the United States (56 presentations).
+2. More seriously, country was resolved from email domains and English-language country names, so an institution named in Portuguese or Spanish whose author used consumer mail was invisible. "Universidade Federal de Minas Gerais" contains no country name and `gmail.com` carries no country code. **Brazil resolved to 17 talks when the true figure is 52.**
+
+The error was directional: it undercounted precisely the countries whose under-representation this analysis reports, which inflated the finding. Anglophone institutions resolved cleanly; Global South institutions did not.
+
+`scripts/country_resolver_v2.py` replaces it: institution gazetteer first, then country-code domain for institutional mail only, generic `.edu`/`.gov` last. Anything still unresolved is reported as unresolved, never guessed.
+
+**Corrected headline figures** (all machine-verified, see below):
+
+| | Superseded | Corrected |
+|---|---|---|
+| Presentations | 1,461 | **1,458** (1,461 scheduled slots, 3 empty/withdrawn placeholders) |
+| Country resolved | ~78% | **99%** (1,444 of 1,458) |
+| USA | ~29% | **32.9%** (n = 480) |
+| Canada | ~25% | **29.4%** (n = 428) |
+| USA + Canada | ~54% | **62.3%** |
+| Brazil | ~1% | **3.6%** (n = 52) |
+
+Two further claims below did not survive re-derivation and are **not** used in the paper: the equity count ("58 talks across 14 sessions") could not be reproduced from the tags and is replaced by a defined union of the equity frame and the citizen-science tag (41 talks, 18 session items); and the gender base described as "classifiable" was a mislabel, since 81 of those names were recognised but judged unisex and never assigned a gender (682 female / 521 male / 81 unisex, of 1,284 recognised).
+
+**Everything in the "Headline findings" and "DEI sweep" sections below predates this correction.** Where they disagree with the paper, the paper is right. The authoritative numbers are the ones the verification script checks.
+
+### Verifying this yourself
+
+```bash
+cd scripts && python verify_manuscript_claims.py    # 65 checks, exits non-zero on any mismatch
+```
+
+This recomputes every quantitative claim in the paper directly from `data/sessions_all_public.json` and fails loudly if any value drifts from what the manuscript states. It runs against the published data, which carries `email_domain` rather than full addresses: presenter emails are personal data and are not published. Country resolution reads only the domain, so the public data reproduces every number exactly.
+
+A caution, recorded because it cost two rounds: this verification script twice passed checks that were wrong, because it imported the same rule as the pipeline it was checking (once for posters, once for countries). Both are now fixed by using an independent rule: room for posters, institution-first for countries.
+
+Note that `scripts/03_landscape_analysis.py` retains the original `COUNTRY_PATS` block for provenance. **It is superseded**; use `country_resolver_v2.py`.
+
+---
+
 ## What's in here
 
 | Path | What |
