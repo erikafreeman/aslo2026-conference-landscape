@@ -19,7 +19,7 @@ The error was directional: it undercounted precisely the countries whose under-r
 |---|---|---|
 | Presentations | 1,461 | **1,458** (1,461 scheduled slots, 3 empty/withdrawn placeholders) |
 | Country resolved | ~78% | **99%** (1,444 of 1,458) |
-| USA | ~29% | **32.9%** (n = 480) |
+| USA | ~29% | **33.0%** (n = 481) |
 | Canada | ~25% | **29.4%** (n = 428) |
 | USA + Canada | ~54% | **62.3%** |
 | Brazil | ~1% | **3.6%** (n = 52) |

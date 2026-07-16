@@ -23,6 +23,18 @@ v2 RULE ORDER (institution truth first, mail provider last):
      not their country: `yahoo.fr` on a Université du Québec affiliation is Canadian.
   4. Generic .edu/.gov => USA, LAST, so it can never outrank a named foreign institution.
 
+v2.1 FIX (Oberlin): the Germany pattern was `berlin`, with no word boundary, so
+`Oberlin College` (Ohio) matched and resolved to Germany. Its own address,
+ylin@oberlin.edu, would have resolved it correctly under rule 4. The lesson is
+that rule 1 (institution first), which fixed the Brazil undercount, is also what
+let a substring outrank a correct email: a fix can introduce a new error. The
+pattern is now `\bberlin\b`, which still matches "TU Berlin", "IGB Berlin" and
+"Humboldt-Universitat zu Berlin". USA 480->481, Germany 83->82.
+
+Note that `barcelona` is deliberately left WITHOUT a word boundary: it must keep
+matching "BarcelonaTech" (Universitat Politecnica de Catalunya), which is in
+Barcelona and carries no other Spanish signal.
+
 Anything still unresolved is reported as unresolved. It is never guessed.
 """
 import re
@@ -123,7 +135,7 @@ GAZETTEER = [
                  r"german federal institute of hydrology", r"university of cologne",
                  r"brandenburg university", r"duisburg-essen", r"university of konstanz",
                  r"\bIGB\b", r"helmholtz", r"\bUFZ\b", r"freiberg", r"university bremen",
-                 r"\bgermany\b", r"berlin"]),
+                 r"\bgermany\b", r"\bberlin\b"]),
     ("Austria", [r"\bBOKU\b", r"university of natural resources and life sciences",
                  r"natural resources and life sciences", r"\baustria\b", r"vienna"]),
     ("Switzerland", [r"university of geneva", r"swiss federal institute", r"\bEawag\b",
